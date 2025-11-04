@@ -761,7 +761,7 @@
 	* [48　『巅峰生物』](markdown/ch/chapter090/48.md)
 	* [49　『魔法师』](markdown/ch/chapter090/49.md)
 	* [50　『冰上决战』](markdown/ch/chapter090/50.md)
-	* [51　『雅耶·天泽』](markdown/ch/chapter090/51.md)
+	* [51　『雅耶・天泽』](markdown/ch/chapter090/51.md)
 	* [52　『阿尔德巴兰Ⅰ』](markdown/ch/chapter090/52.md)
 * [ReZeroEX （外传合辑）](markdown/ch/chapter999/README.md)
 	* [IF 线合集](markdown/ch/chapter999/if/README.md)
