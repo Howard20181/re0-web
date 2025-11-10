@@ -763,7 +763,7 @@
 	* [50　『冰上决战』](markdown/ch/chapter090/50.md)
 	* [51　『雅耶・天泽』](markdown/ch/chapter090/51.md)
 	* [52　『阿尔德巴兰 Ⅰ』](markdown/ch/chapter090/52.md)
-	* [53　『阿尔德巴兰Ⅱ』](markdown/ch/chapter090/53.md)
+	* [53　『阿尔德巴兰 Ⅱ』](markdown/ch/chapter090/53.md)
 * [ReZeroEX （外传合辑）](markdown/ch/chapter999/README.md)
 	* [IF 线合集](markdown/ch/chapter999/if/README.md)
 		* [01　『胡蝶之夢』（色欲 IF 线）](markdown/ch/chapter999/if/01.md)
