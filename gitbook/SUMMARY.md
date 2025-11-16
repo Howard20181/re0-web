@@ -1653,7 +1653,7 @@
 ## 文库版
 
 * [Epub 资源](markdown/epub.md)
-* [动画资源（无圣光）](https://exp-res.github.io/film-tv/sections/section-07.html#card-Re0-%E7%AC%AC%E4%B8%80%E5%AD%A3)
+* [动画资源（无圣光）](https://exp-res.github.io/film-tv/sections/section-98.html#card-Re0-%E7%AC%AC%E4%B8%80%E5%AD%A3)
 
 
 ## MF文库J - 原版连载
