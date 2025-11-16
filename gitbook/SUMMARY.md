@@ -764,7 +764,7 @@
 	* [51　『雅耶・天泽』](markdown/ch/chapter090/51.md)
 	* [52　『阿尔德巴兰 Ⅰ』](markdown/ch/chapter090/52.md)
 	* [53　『阿尔德巴兰 Ⅱ』](markdown/ch/chapter090/53.md)
-	* [54　『魔人VS魔女』](markdown/ch/chapter090/54.md)
+	* [54　『魔人 VS 魔女』](markdown/ch/chapter090/54.md)
 	* [55　『领域之加害者』](markdown/ch/chapter090/55.md)
 * [ReZeroEX （外传合辑）](markdown/ch/chapter999/README.md)
 	* [IF 线合集](markdown/ch/chapter999/if/README.md)
@@ -1653,6 +1653,7 @@
 ## 文库版
 
 * [Epub 资源](markdown/epub.md)
+* [动画资源（无圣光）](https://exp-res.github.io/film-tv/sections/section-07.html#card-Re0-%E7%AC%AC%E4%B8%80%E5%AD%A3)
 
 
 ## MF文库J - 原版连载
