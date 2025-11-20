@@ -4,7 +4,7 @@
         <description><![CDATA[RE0：从零开始的异世界生活]]></description>
         <link>https://re0zero.top/gitbook/book/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 16 Nov 2025 19:18:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2025 18:06:21 GMT</lastBuildDate>
         <atom:link href="https://re0zero.top/gitbook/book/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[EXP]]></author>
         <copyright><![CDATA[EXP]]></copyright>
@@ -97,6 +97,7 @@
 | プリスカ・ベネディクト | 普莉丝卡・贝尼迪克特 | - | 第七章 | 普莉希拉 的旧名 |
 | ライプ・バーリエル | 莱普・跋利耶尔 | - | 第四章 | 普莉希拉 的丈夫，已故。武器是短枪，作为『流星』的效果是提升使用者的魔法威力。幻想在普莉希拉竞选王位后、再以『咒术师』的诅咒夺走普莉希拉的自我意识，被阿尔使用『星回轮转』的能力搞到精神失常 |
 | アルデバラン | 阿尔德巴兰 | - | 第三章 | 18 年前和 昴 一样被召唤到异世界的头盔男，武器为青龙刀，头盔是『剑奴王』的复制品，在《短篇集: 放弃尾随的日子》有提及阿尔的能力名为『星回轮转』，曾经是『强欲魔女』艾姬多娜的弟子，左臂曾被魔女阴影夺走 |
+| ナツキ・リゲル | 菜月・利格尔 | - | 第九章 | 阿尔德巴兰 主动让暴食把自己的『名字』吞噬后，为自己重新改的名字。目的是把自己从所有人的记忆中抹除，将一切翻盘 |
 | アル | 阿尔 | - | 第三章 | 阿尔德巴兰 的简称 |
 | 兜さん | 头盔先生 | - | 第九章 | 梅莉 对阿尔的 戏称 |
 | 兜ヤロー | 头盔佬 | - | 第九章 | 菲鲁特 对阿尔的 蔑称 |
@@ -5537,7 +5538,7 @@
         </item>
         <item>
             <title><![CDATA[『碎心之事』]]></title>
-            <description><![CDATA[——神啊、佛啊、欧德・拉格纳大人。我发誓此生再不抱任何玩偶。]]></description>
+            <description><![CDATA[——神啊、佛啊、欧德・拉格纳大人啊~ 我发誓此生再不抱任何玩偶。]]></description>
             <link>https://re0zero.top/gitbook/book/markdown/ch/chapter090/42.html</link>
             <guid isPermaLink="true">https://re0zero.top/gitbook/book/markdown/ch/chapter090/42.html</guid>
             <dc:creator><![CDATA[EXP]]></dc:creator>
@@ -5564,7 +5565,7 @@
             <dc:creator><![CDATA[EXP]]></dc:creator>
         </item>
         <item>
-            <title><![CDATA[『忧郁之魔女』]]></title>
+            <title><![CDATA[『忧郁魔女』]]></title>
             <description><![CDATA[――神明啊，佛祖啊，欧德・拉格纳大人啊。我发誓，这辈子绝不挑食。]]></description>
             <link>https://re0zero.top/gitbook/book/markdown/ch/chapter090/46.html</link>
             <guid isPermaLink="true">https://re0zero.top/gitbook/book/markdown/ch/chapter090/46.html</guid>
@@ -5634,7 +5635,7 @@
             <dc:creator><![CDATA[EXP]]></dc:creator>
         </item>
         <item>
-            <title><![CDATA[『佩特拉·雷提』]]></title>
+            <title><![CDATA[『佩特拉・雷蒂』]]></title>
             <description><![CDATA[——佩特拉・雷蒂是露格尼卡王国下辖的一个村落——阿拉姆村出身的乡下姑娘。]]></description>
             <link>https://re0zero.top/gitbook/book/markdown/ch/chapter090/56.html</link>
             <guid isPermaLink="true">https://re0zero.top/gitbook/book/markdown/ch/chapter090/56.html</guid>
