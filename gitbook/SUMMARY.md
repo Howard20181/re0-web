@@ -770,7 +770,7 @@
 	* [57　『最后的侍奉』](markdown/ch/chapter090/57.md)
 	* [58　『锁链之音』](markdown/ch/chapter090/58.md)
 	* [59　『——不是』](markdown/ch/chapter090/59.md)
-	* [1764091598　『声援』](markdown/ch/chapter090/1764091598.md)
+	* [幕间　『声援』](markdown/ch/chapter090/1764091598.md)
 * [ReZeroEX （外传合辑）](markdown/ch/chapter999/README.md)
 	* [IF 线合集](markdown/ch/chapter999/if/README.md)
 		* [01　『胡蝶之夢』（色欲 IF 线）](markdown/ch/chapter999/if/01.md)
@@ -1663,7 +1663,7 @@
 ## 文库版
 
 * [Epub 资源](markdown/epub.md)
-* [动画资源（无圣光）](https://exp-res.github.io/film-tv/sections/section-98.html#card-Re0-%E7%AC%AC%E4%B8%80%E5%AD%A3)
+* [动画资源（无圣光）](https://exp-res.github.io/film-tv/sections/section-09.html)
 
 
 ## MF文库J - 原版连载
