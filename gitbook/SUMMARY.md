@@ -772,6 +772,7 @@
 	* [59　『——不是』](markdown/ch/chapter090/59.md)
 	* [幕间　『声援』](markdown/ch/chapter090/59_5.md)
 	* [终幕　『重织』](markdown/ch/chapter090/60.md)
+* [第十章　『獅子王之国』](markdown/ch/chapter010/README.md)
 * [ReZeroEX （外传合辑）](markdown/ch/chapter999/README.md)
 	* [IF 线合集](markdown/ch/chapter999/if/README.md)
 		* [01　『胡蝶之夢』（色欲 IF 线）](markdown/ch/chapter999/if/01.md)
