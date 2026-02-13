@@ -8,4 +8,4 @@
 - [06　『瞬间沸腾器』（未润色）](06.html)
 
 
-![](/res/imgs/article/chapter010/00-b.jpg)
+![](/res/imgs/article/chapter100/00-b.jpg)

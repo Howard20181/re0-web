@@ -7,4 +7,4 @@
 - [05　『寄り道の顛末』](05.html)
 - [06　『瞬間湯沸かし器』](06.html)
 
-![](/res/imgs/article/chapter010/00-b.jpg)
+![](/res/imgs/article/chapter100/00-b.jpg)
