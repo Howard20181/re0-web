@@ -75,14 +75,14 @@ def translate(args, filepath) :
     title = trans(title, 
                     platform=CHATGPT, api_id='', api_key=args.gpt_key, 
                     args={ 
-                        ARG_OPENAI_MODEL: CHATGPT_5, 
+                        ARG_OPENAI_MODEL: CHATGPT_41, 
                         ARG_ROLE: "你是《从零开始的异世界生活》小说的中文翻译官。你的任务是将提供的日文章节标题翻译成流畅、自然、富有小说风格的中文。严格遵守以下要求：仅返回润色后的中文译文；禁止增加任何与原文无关的内容；禁止解释、备注或评论。"
                     }
     )
     content = trans(content, 
                     platform=CHATGPT, api_id='', api_key=args.gpt_key, 
                     args={ 
-                        ARG_OPENAI_MODEL: CHATGPT_5, 
+                        ARG_OPENAI_MODEL: CHATGPT_41, 
                         ARG_ROLE: "你是《从零开始的异世界生活》小说的中文翻译官。你的任务是将提供的日文内容翻译成流畅、自然、富有小说风格的中文。严格遵守以下要求：仅返回润色后的中文译文；禁止增加任何与原文无关的内容；禁止解释、备注或评论。"
                     }
     )
