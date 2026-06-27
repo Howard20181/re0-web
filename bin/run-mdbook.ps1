@@ -7,11 +7,11 @@ Set-Location $ROOT
 
 $IMAGE = "re0-mdbook"
 
-# ── 1. 构建 Docker 镜像（仅首次或 Dockerfile.mdbook 有更新时需要） ──
+# ── 1. 构建 Docker 镜像（仅首次或 Dockerfile 有更新时需要） ──
 $imageExists = docker images -q $IMAGE 2>$null
 if (-not $imageExists) {
     Write-Host "==> Building Docker image '$IMAGE' (only needed once)..." -ForegroundColor Cyan
-    docker build -f Dockerfile.mdbook -t $IMAGE .
+    docker build -f Dockerfile -t $IMAGE .
     Write-Host "==> Image built.`n" -ForegroundColor Green
 } else {
     Write-Host "==> Using existing Docker image '$IMAGE'" -ForegroundColor Green

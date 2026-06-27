@@ -8,7 +8,7 @@ $IMAGE = "re0-mdbook"
 
 $imageExists = docker images -q $IMAGE 2>$null
 if (-not $imageExists) {
-    docker build -f Dockerfile.mdbook -t $IMAGE .
+    docker build -f Dockerfile -t $IMAGE .
 }
 
 # Docker 挂载卷下容器内清理 mdbook/book 不可靠，Windows 侧先清理

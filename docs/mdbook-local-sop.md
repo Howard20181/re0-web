@@ -13,7 +13,7 @@
 PowerShell：
 
 ```powershell
-docker build -f Dockerfile.mdbook -t re0-mdbook .
+docker build -f Dockerfile -t re0-mdbook .
 ```
 
 `bin/run-mdbook.ps1` 会在本地没有 `re0-mdbook` 镜像时自动执行上述构建；通常不需要手动执行。

@@ -1,5 +1,4 @@
-# mdBook 构建镜像（兼容旧 Dockerfile 文件名）
-# 实际构建使用 Dockerfile.mdbook
+# mdBook 预览镜像（使用本地已有的 debian:bookworm-slim 基础镜像）
 FROM debian:bookworm-slim
 
 ARG MDBOOK_VERSION=0.4.40
@@ -13,4 +12,5 @@ RUN apt-get update && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspace
+
 EXPOSE 4000

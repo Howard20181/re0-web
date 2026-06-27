@@ -5,7 +5,7 @@ IMAGE="re0-mdbook"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
 # 按需构建镜像
-docker images -q "$IMAGE" >/dev/null 2>&1 || docker build -f Dockerfile.mdbook -t "$IMAGE" "$ROOT"
+docker images -q "$IMAGE" >/dev/null 2>&1 || docker build -f Dockerfile -t "$IMAGE" "$ROOT"
 
 # 清理上次生成的 book 输出目录（不清理 mdbook/src 源文件）
 rm -rf "$ROOT/mdbook/book"
