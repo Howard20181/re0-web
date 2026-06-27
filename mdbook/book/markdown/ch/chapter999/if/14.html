@@ -1,0 +1,905 @@
+<!DOCTYPE HTML>
+<html lang="zh" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>14　『学院 Re：0！第三堂课！』 - Re：从零开始的异世界生活</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="RE0：从零开始的异世界生活 （WEB版）">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../../../../favicon.svg">
+        <link rel="shortcut icon" href="../../../../favicon.png">
+        <link rel="stylesheet" href="../../../../css/variables.css">
+        <link rel="stylesheet" href="../../../../css/general.css">
+        <link rel="stylesheet" href="../../../../css/chrome.css">
+        <link rel="stylesheet" href="../../../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../../../highlight.css">
+        <link rel="stylesheet" href="../../../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../../../../theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../../../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../../../../index.html">导读</a></li><li class="chapter-item "><a href="../../../../markdown/character.html">登场人物</a></li><li class="chapter-item "><a href="../../../../markdown/translation.html">译名字典</a></li><li class="chapter-item affix "><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">汉化版</li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/index.html">第一章　『怒涛般的第一天』（初见篇）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/00.html">序章　『开始的余温』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/01.html">01　『无法使用的十元硬币』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/02.html">02　『不要得意忘形，神明如是说』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/03.html">03　『第一次见识到魔法』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/04.html">04　『膝枕的报恩』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/05.html">05　『你的名字是？』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/06.html">06　『第一次的终结』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/07.html">07　『无法理解的再会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/08.html">08　『苦酒的味道』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/09.html">09　『王牌的打法』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/10.html">10　『失言的代价』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/11.html">11　『迟来的抵抗』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/12.html">12　『再会的魔女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/13.html">13　『终结与开始』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/14.html">14　『事不过四』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/15.html">15　『被称为「剑圣」的男人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/16.html">16　『贫民窟中的交涉』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/17.html">17　『赃物库中的交涉』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/18.html">18　『赃物库的攻防战』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/19.html">19　『精灵术士的战斗』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/20.html">20　『登场角色凑齐了』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/21.html">21　『剑圣的威力』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/22.html">22　『从零开始的异世界生活』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/23.html">幕間　『月亮都看在眼里』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter010/99.html">后记　『篇章插图』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/index.html">第二章　『动荡的一周』（宅邸篇）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/00.html">序章　『赎罪的开端』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/01.html">01　『陌生的天花板、无尽的走廊』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/02.html">02　『禁书库管理员和双胞胎女仆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/03.html">03　『嫁不出去了』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/04.html">04　『异世界的魔女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/05.html">05　『察觉到的情感』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/06.html">06　『主人归来』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/07.html">07　『罗兹瓦尔宅邸』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/08.html">08　『关于这个国家和那个孩子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/09.html">09　『三度死亡的功绩』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/10.html">10　『不道德的交涉』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/11.html">11　『餐后』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/12.html">12　『相性不合的两个人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/13.html">13　『不可及的约定之晨』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/14.html">14　『反抗宣言』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/15.html">15　『第二次失算与期待落空』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/16.html">16　『在二次轮回的困惑』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/17.html">17　『锁链的声音』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/18.html">18　『三度轮回』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/19.html">19　『发表成果』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/20.html">20　『孤独的黄昏』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/21.html">21　『和鬼捉迷藏』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/22.html">22　『无法用言语表达』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/23.html">23　『临时契约』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/24.html">24　『渴望已久的清晨』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/25.html">25　『难以消逝的哀嚎』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/26.html">26　『第三个选择』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/27.html">27　『伤痛』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/28.html">28　『觉悟与告白』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/29.html">29　『菜月昴的重生』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/30.html">30　『菜月昴的丑态』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/31.html">31　『小丑的恸哭』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/32.html">32　『哭着、哭喊着、不哭了之后』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/33.html">33　『见到光明与模糊之影』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/34.html">34　『魔女与精灵与魔法使』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/35.html">35　『购物的约定』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/36.html">36　『提前拜访村庄』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/37.html">37　『咒术师的真面目』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/38.html">38　『勇气的含义』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/39.html">39　『熬夜畅谈的约定』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/40.html">40　『魔兽之牙』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/41.html">41　『鬼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/42.html">42　『蒸芋头』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/43.html">43　『夹缝中求生存』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/44.html">44　『绝望的利用方式』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/45.html">45　『余香的效果』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/46.html">46　『鬼的一闪』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/47.html">47　『雷姆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/48.html">48　『ALL IN』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/49.html">49　『未来的故事』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/50.html">幕間　『月下的密谈』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter020/99.html">后记　『篇章插图』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter021/index.html">番外編　『Oneday』</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter021/01.html">01　『中毒症状』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter021/02.html">02　『第一次蛋黄酱骚动』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/index.html">第三章　『再次来到王都』（王选篇）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/00.html">序章　『愚蠢者的固执』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/01.html">01　『安稳的早上』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/02.html">02　『佣人们的茶话』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/03.html">03　『王都旅行计划』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/04.html">04　『旅行出发，前途叵测』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/05.html">05　『当约定实现时』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/06.html">06　『危险的二人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/07.html">07　『橙色的少女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/08.html">08　『赌博的结果』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/09.html">09　『加護x再会x约定』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/10.html">10　『汇合与告别』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/11.html">11　『三个臭皮匠胜过诸葛亮』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/12.html">12　『潜入王城的结果』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/13.html">13　『同郷』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/14.html">14　『王选开始』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/15.html">15　『关系恶劣的候选者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/16.html">16　『所信表明』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/17.html">17　『傲慢的演说』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/18.html">18　『強欲商人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/19.html">19　『银发魔女的愿望』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/20.html">20　『自称骑士的菜月・昴』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/21.html">21　『肤浅的代价和老人的意志』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/22.html">22　『最后的主从』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/23.html">23　『自称騎士与騎士』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/24.html">24　『决斗的始末』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/25.html">25　『孤身一人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/85.html">幕間　『骑士们的疑惑』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/26.html">26　『腐败的精神』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/27.html">27　『市井之声』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/28.html">28　『没用的上进心』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/29.html">29　『动荡的局势』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/30.html">30　『雷姆的决意』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/31.html">31　『交渉x商談x断絶』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/32.html">32　『名为绝望的病』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/33.html">33　『白色的终焉』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/34.html">34　『疯狂的外侧』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/35.html">35　『帰路』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/36.html">36　『血腥咆哮』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/37.html">37　『怠惰』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/38.html">38　『回归现实』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/39.html">39　『奇跡』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/40.html">40　『杀机的里侧』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/41.html">41　『幼稚的交涉』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/42.html">42　『決裂之夜』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/43.html">43　『猪的欲望』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/44.html">44　『再次从王都出发』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/45.html">45　『遭遇』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/46.html">46　『白鯨之顎』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/47.html">47　『丑态的尽头』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/48.html">48　『不允许化为话语』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/49.html">49　『終焉之兽』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/50.html">50　『罪孽所在』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/51.html">51　『悲愿』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/52.html">52　『从零开始』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/53.html">53　『被配给的手牌』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/54.html">54　『同盟交渉』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/55.html">55　『前哨』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/56.html">56　『决战前夜』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/57.html">57　『白鯨攻略戦』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/58.html">58　『雾的威胁』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/59.html">59　『反抗绝望的赌博』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/60.html">60　『维鲁海鲁姆・梵・阿斯特雷亚』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/61.html">61　『前往梅瑟斯领地的道路』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/62.html">62　『過去与未来一起清算』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/63.html">63　『怠惰一閃』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/64.html">64　『魔女教狩猎的始末』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/65.html">65　『怠惰的后果』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/66.html">66　『——战斗吧！』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/67.html">67　『精灵骑士』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/68.html">68　『怠惰捕获战线』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/69.html">69　『时光的碎片』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/70.html">70　『回归的意义』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/71.html">71　『禁书库的少女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/72.html">72　『不理解和理解』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/73.html">73　『恶毒的怠惰』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/74.html">74　『履行的契约』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/75.html">75　『再会x推迟x逆转的契机』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/76.html">76　『幕后舞台×阴谋诡计×拉钩约定』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/77.html">77　『俘虏交涉与再会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/78.html">78　『狂人与狂语』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/79.html">79　『自称的骑士与最优的骑士』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/80.html">80　『怠惰的终焉』 ★</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/81.html">81　『追跡』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/82.html">82　『名为爱的福音』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/83.html">83　『答案』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/84.html">84　『只是那样而已的故事』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/86.html">幕間　『龙车里的一幕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/87.html">断章　『菜月・雷姆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/88.html">幕間　『我开动了』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/89.html">幕間　『各自的誓言』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/90.html">番外編　『王様』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter030/99.html">后记　『篇章插图』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/index.html">第四章　『永远的契约』（圣域篇）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/00.html">序章　『坟墓』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/01.html">01　『可以回去的地方』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/02.html">02　『咒骂与感谢』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/03.html">03　『与重逢擦肩而过』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/04.html">04　『下一个地方』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/05.html">05　『爱蜜莉娅阵营』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/06.html">06　『去圣域的路上』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/07.html">07　『实验场』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/08.html">08　『等待已久的再会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/09.html">09　『墓所』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/10.html">10　『求知欲的化身』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/11.html">11　『傲慢x怠惰x憤怒』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/12.html">12　『茶会礼物』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/13.html">13　『罗兹瓦尔的思念』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/14.html">14　『回答疑问』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/15.html">15　『资格与试炼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/16.html">16　『菜月家的早晨』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/17.html">17　『恋爱话题』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/18.html">18　『父子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/19.html">19　『作业』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/20.html">20　『试炼結果』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/21.html">21　『重新下定决心』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/22.html">22　『软弱』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/23.html">23　『迈出的一步』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/24.html">24　『等待』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/25.html">25　『冰之森』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/26.html">26　『停滞不前』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/27.html">27　『低语』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/28.html">28　『茶会对话』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/29.html">29　『杂食系男子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/30.html">30　『归途中的违和感』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/31.html">31　『妹抖・妹抖・妹抖』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/32.html">32　『1/4』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/33.html">33　『风吹的密道』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/34.html">34　『终结的世界』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/35.html">35　『少女的福音』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/36.html">36　『在无法理解的尽头』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/37.html">37　『首次摸索』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/38.html">38　『芋虫』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/39.html">39　『友人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/40.html">40　『協力者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/41.html">41　『虎』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/42.html">42　『生命的价值』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/43.html">43　『然后谁也——』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/44.html">44　『禁忌』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/45.html">45　『茶会的条件』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/46.html">46　『蝗害』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/47.html">47　『相性不好的对手』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/48.html">48　『茶会的代价』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/49.html">49　『LOVELOVELOVELOVELOVELOVEYOUー』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/50.html">50　『远处处的吼声』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/51.html">51　『LOVELOVELOVE……LOVELOVELOVEME–』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/52.html">52　『细微的变化』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/53.html">53　『重叠的疑问』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/54.html">54　『地狱什么的我早已知晓』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/55.html">55　『水晶中的少女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/56.html">56　『圣域的存在理由』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/57.html">57　『不老不死的实验』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/58.html">58　『婆婆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/59.html">59　『甜蜜的烤点心与并不甜蜜的话语』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/60.html">60　『结束终焉的话语』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/61.html">61　『跨越四百年的悲鸣』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/62.html">62　『罗兹瓦尔宅邸的惨剧』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/63.html">63　『死之共感』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/64.html">64　『支离破碎的世界』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/65.html">65　『雪中的热情』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/66.html">66　『赤色的雪景』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/67.html">67　『魔人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/68.html">68　『死的味道』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/69.html">69　『骗子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/70.html">70　『地狱的更深处』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/71.html">71　『Ending List』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/131.html">幕間　『茶会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/72.html">72　『BAD END 1、5、11』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/73.html">73　『软弱的所在之处』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/74.html">74　『魔女的企图与提案』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/75.html">75　『那个人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/76.html">76　『≠莎缇拉』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/77.html">77　『孤身一人的……』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/78.html">78　『欲哭的声音』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/79.html">79　『梦的终结』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/132.html">幕間　『宾客散去』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/80.html">80　『粗糙的舌头』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/81.html">81　『光明』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/82.html">82　『尔虞我诈』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/83.html">83　『相互坦白』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/84.html">84　『否定×否定×否定』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/85.html">85　『用话语、用心意、用拳头』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/86.html">86　『毫无胜算』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/87.html">87　『鬼在外，两个小丑在内』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/88.html">88　『卡菲尔的思绪』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/89.html">89　『雪之记忆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/90.html">90　『——对不起』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/91.html">91　『虚假的长眠』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/92.html">92　『谎言』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/93.html">93　『相互的提案』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/94.html">94　『遗弃』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/95.html">95　『西格玛（∑）』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/96.html">96　『双唇红染』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/97.html">97　『黎明之前』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/98.html">98　『余温渐消的床铺』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/99.html">99　『封闭之所，孤身一人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/100.html">100　『埋藏于尘埃中的回忆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/101.html">101　『θ其一』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/102.html">102　『记忆中没有的回忆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/103.html">103　『圣域的起始与崩坏的开端』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/104.html">104　『θ其二』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/105.html">105　『旅行商人的陷阱』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/106.html">106　『奥托・斯温』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/107.html">107　『最后的陷阱』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/108.html">108　『只有时机好的男人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/109.html">109　『错误的选择』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/110.html">110　『相信的理由』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/111.html">111　『卡菲尔的结界』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/112.html">112　『拒绝软弱的本能』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/113.html">113　『奎因之石靠一个人是没法搬动的』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/114.html">114　『将谎言化为祈愿』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/115.html">115　『青梅竹马的女人面前抬不起头』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/116.html">116　『祖母、母亲、姐姐、孙子、儿子、弟弟』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/117.html">117　『情信』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/118.html">118　『平家星笑的日子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/119.html">119　『现在也，过去也，不变的爱』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/120.html">120　『艾利奥尔大森林的永久冻土』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/121.html">121　『请帮帮他』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/122.html">122　『咆哮的再会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/123-A.html">123-A　『猎肠者VS圣域之盾』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/123-B.html">123-B　『反映在水面上的幸福』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/124-A.html">124-A　『给我听好，笨蛋』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/125-A.html">125-A　『罗兹沃尔宅邸攻防战』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/126-A.html">126-A　『漆黑森林之王，基尔提拉乌的袭击！』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/127-A.html">127-A　『罗兹瓦尔府的最后一日』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/128.html">128　『最喜欢血肉和内脏』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/129.html">129　『――选择我』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/124-B.html">124-B　『映于镜中的你』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/125-B.html">125-B　『从复仇开始』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/126-B.html">126-B　『下次一定要开茶会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/127-B.html">127-B　『已经够了什么的』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/130.html">130　『雪的颜貌』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/133.html">幕間　『各自的妥协』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/134.html">幕間　『爱蜜莉娅阵营・魔人・精灵・精灵使』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/135.html">蛇足　『再临』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter040/199.html">后记　『篇章插图』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter041/index.html">番外編　『OnedayⅡ』</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter041/01.html">01　『姐妹的关系』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter041/02.html">02　『年轻的灵魂和守护者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter041/03.html">03　『美少女x美幼女x美老女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter041/04.html">04　『诞生、爱蜜莉娅阵营内政官殿下』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter041/05.html">05　『安妮罗洁的陷阱与姐弟关系』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter041/06.html">06　『另一件未竟之事』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter041/07.html">07　『月下，乱舞』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter041/08.html">08　『交错的宿愿』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter041/09.html">09　『王选前日谈』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/index.html">第五章　『刻画历史的群星』（水门都市篇）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/01.html">01　『事情的起头总是由到访者开始』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/02.html">02　『虚伪的血统』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/03.html">03　『各自的见解』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/04.html">04　『旅行途中』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/05.html">05　『水门都市』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/06.html">06　『两位精灵骑士，强欲商人和无欲天使』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/07.html">07　『向那罪孽深重的男人起航』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/08.html">08　『晕船的同伴』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/09.html">09　『歌姬的价值』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/10.html">10　『水之都市的归途』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/11.html">11　『意外的再会，本该到来的再会，意想不到的再会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/12.html">12　『拜垫客厅里非常的气氛』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/13.html">13　『祥和的晚餐』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/14.html">14　『月下的剑鬼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/15.html">15　『吵闹的寂静』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/16.html">16　『不速之客』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/17.html">17　『穿惯了的铠甲』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/18.html">18　『歌舞的间歇之时』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/19.html">19　『剧场型恶意』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/20.html">20　『共相高涨的情绪』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/21.html">21　『最佳的解法』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/22.html">22　『草率的解法』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/23.html">23　『被扰乱的事态』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/24.html">24　『冰炎的结局』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/25.html">25　『狮子座剧场』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/26.html">26　『爱的矛头』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/27.html">27　『噪音』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/28.html">28　『满身疮痍的作战会议』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/29.html">29　『华丽之虎』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/30.html">30　『月下的虎与猫』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/31.html">31　『犯错的代价』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/32.html">32　『都市厅舍攻略会议』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/33.html">33　『都市厅舍攻略战』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/34.html">34　『剑斗与乱战』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/35.html">35　『埋伏与奇袭』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/36.html">36　『爱的起点与终点』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/37.html">37　『重整旗鼓』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/38.html">38　『魔女教的要求』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/39.html">39　『骑士作风与迟来的男子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/40.html">40　『愤怒的侵蚀』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/41.html">41　『英雄幻想』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/42.html">42　『最为新生的英雄与最为古老的英雄』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/43.html">43　『汇合前的情况』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/44.html">44　『开诚布公吧』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/45.html">45　『无法逃离的束缚』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/46.html">46　『心境』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/47.html">47　『都市夺还攻略前哨』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/48.html">48　『真正喜欢的人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/49.html">49　『强欲攻略战开幕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/50.html">50　『爱之枷锁』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/51.html">51　『愚弄着的恶意』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/52.html">52　『星与大罪司教』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/53.html">53　『混战都市』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/54.html">54　『非战斗人员的战斗力』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/55.html">55　『斗神的挑战者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/56.html">56　『签署断绝关系声明』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/57.html">57　『心脏的所在』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/58.html">58　『——我相信』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/59.html">59　『雷格鲁斯・柯尼亚斯』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/60.html">60　『一波方平，一波又起』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/61.html">61　『领域的被害者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/62.html">62　『战士的称赞』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/63.html">63　『莉莉安娜・马斯可芮德的情热』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/64.html">64　『莉莉安娜・马斯可芮德的忧郁』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/65.html">65　『莉莉安娜・马斯可芮德的后悔』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/66.html">66　『莉莉安娜・马斯可芮德的舞台』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/67.html">67　『莉莉安娜・马斯可芮德』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/68.html">68　『吞食名字的美食家』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/69.html">69　『丑恶的晚餐会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/70.html">70　『喰』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/71.html">71　『剑鬼VS先代剑圣』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/72.html">72　『剑圣VS前代剑圣』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/73.html">73　『特蕾西亚・范・阿斯特雷亚』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/74.html">74　『普利斯提拉保卫战战果1』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/75.html">75　『普利斯提拉保卫战战果2』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/76.html">76　『普利斯提拉攻防战成果3』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/77.html">77　『无名的骑士』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/78.html">78　『水门都市的余波』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/79.html">79　『贤者的监视塔』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/80.html">80　『水面上留下波纹』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/81.html">81　『充满贪婪的那些人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/82.html">幕間　『结对的条件』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/83.html">幕間　『未完成的大器』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/84.html">幕間　『温暖的名字』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter050/99.html">后记　『篇章插图』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/index.html">第六章　『记忆的回廊』（贤者之塔篇）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/00.html">序章　『贤者监视塔』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/01.html">01　『龙车归途路』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/02.html">02　『他相应的款待』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/03.html">03　『少女的牢笼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/04.html">04　『把你带出的理由』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/05.html">05　『各自的不安』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/06.html">06　『尤里乌斯的身世』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/07.html">07　『以沙海为目标』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/08.html">08　『沙丘的洗礼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/09.html">09　『沙时间中的跋涉』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/10.html">10　『宛如闪光』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/11.html">11　『听见眼泪的声音』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/12.html">12　『监视塔的洗礼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/13.html">13　『沙海的嘲笑』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/14.html">14　『沙海之上的信赖』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/15.html">15　『沙子上凋零着』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/16.html">16　『咀嚼的味道』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/17.html">17　『沙海之王』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/18.html">18　『砂塔的看守者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/19.html">19　『贤者的行踪』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/20.html">20　『夏乌拉≠贤者=弗琉盖尔』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/21.html">21　『巨石板的挑战书』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/22.html">22　『白色星空的群星』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/23.html">23　『三层塔基忒大图书馆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/24.html">24　『性格扭曲的考官』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/25.html">25　『二层厄勒克特拉盼望之人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/26.html">26　『挥棒的男人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/27.html">27　『厄勒克特拉的高墙』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/28.html">28　『由里乌斯・尤克历乌斯』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/29.html">29　『失败者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/30.html">30　『二层攻略反省会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/31.html">31　『塔内的共同生活』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/32.html">32　『何者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/33.html">33　『■■■・■■■』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/34.html">34　『出了便利店后，那是一个不可思议的世界』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/35.html">35　『如履薄冰的关系』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/36.html">36　『安心感的安置处』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/37.html">37　『纸老虎所见之梦』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/38.html">38　『NISHISHEI』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/39.html">39　『残骸』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/40.html">40　『被星空抛弃』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/41.html">41　『安心的臭味』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/42.html">42　『死者们的塔』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/43.html">43　『生者们的塔』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/44.html">44　『血之勋章』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/45.html">45　『罪人的拥抱』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/46.html">46　『梅丽・波特鲁特』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/47.html">47　『我不会原谅你』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/48.html">48　『——杀人，会成为习惯』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/49.html">49　『致给废柴的你』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/50.html">50　『——正因废柴才恰恰是你』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/51.html">51　『生者们的塔 PART2』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/52.html">52　『神啊，请宽恕我吧』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/53.html">53　『——传来了、声音』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/54.html">54　『Re：从零开始的异世界生活』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/55.html">55　『等待雪融的你』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/56.html">56　『今后之事』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/57.html">57　『暂且放下吧』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/58.html">58　『彼归彼，此归此』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/59.html">59　『在白色的世界里被嘲笑』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/60.html">60　『一人份的陽光』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/61.html">61　『——给我站起来』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/62.html">62　『崩坏的地响』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/63.html">63　『五重障碍』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/64.html">64　『第二个障碍』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/65.html">65　『第二个、第五个、然后——』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/66.html">66　『迈向终焉的第二次机会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/67.html">67　『小小的王』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/68.html">68　『天蝎座的女子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/69.html">69　『蛮不讲理的剑之铁锤』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/70.html">70　『专情的星星』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/71.html">71　『Count・One』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/72.html">72　『■■・■』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/73.html">73　『 『ナツキ・スバル』 』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/74.html">74　『ナツキ・スバル』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/75.html">75　『路伊・阿尔尼普』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/76.html">76　『名为自己的地狱』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/77.html">77　『反击的狼烟』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/78.html">78　『四角』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/79.html">79　『READY STEADY GO』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/80.html">80　『精神之死』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/81.html">81　『――我第一次遇见你』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/82.html">82　『带枷锁的战斗』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/83.html">83　『拉姆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/84.html">84　『嘿咻！　哎呀！』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/85.html">85　『GOOD LOSER』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/86.html">86　『昨日之谈』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/87.html">87　『遥远的目光』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/88.html">88　『――询志』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/89.html">89　『夏乌拉』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/90.html">90　『英雄』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter060/99.html">后记　『篇章插图』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/index.html">第七章　『狼之国』（帝国篇）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/01.html">01　『洗礼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/02.html">02　『Animal Tracking』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/03.html">03　『VS 雷姆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/04.html">04　『有勇气的抉择』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/05.html">05　『男人很艰苦』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/06.html">06　『遥远的南方之地』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/07.html">07　『男人确实辛苦』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/08.html">08　『名字』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/09.html">09　『帝国的作风』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/10.html">10　『修德拉克之民』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/11.html">11　『血命之仪』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/12.html">12　『佛拉基亚帝国』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/13.html">13　『以非神之躯』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/14.html">14　『无法弥合的价值观』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/15.html">15　『想要守护之物』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/16.html">16　『帝国事况』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/17.html">17　『悄然接近的凶气』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/18.html">18　『城塞都市格瓦拉尔攻防战』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/19.html">19　『恼人的重逢』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/20.html">20　『皇帝／商人／菜月・昴』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/21.html">21　『兹克尔・奥斯曼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/22.html">22　『无血开城计划』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/23.html">23　『乐士夏美・施瓦茨』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/24.html">24　『傲岸不逊』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/25.html">25　『热血澎湃般的再会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/26.html">26　『潮涌的圆桌会议』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/27.html">27　『英才与庸才』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/28.html">28　『胜利条件』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/29.html">29　『各自的处世法』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/30.html">30　『自称英雄的菜月・昴』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/31.html">31　『与老乡的谈心』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/32.html">32　『该前进的道路』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/33.html">33　『出发，踏上魔都之路』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/34.html">34　『马车上的纠纷』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/35.html">35　『彻夜详谈』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/36.html">36　『混沌的魔都』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/37.html">37　『红琉璃城之主』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/38.html">38　『八年后的奖励』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/39.html">39　『恶毒』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/40.html">40　『纳奇基・施瓦茨』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/41.html">41　『茶歇谈话』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/42.html">42　『野心之兽』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/43.html">43　『眼皮子底下』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/44.html">44　『收缩的视野』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/45.html">45　『狐娘』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/46.html">46　『幼稚的匹夫之勇』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/47.html">47　『不会消失的■■』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/48.html">48　『思绪交错的魔都』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/49.html">49　『星之邂逅』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/50.html">50　『视野绝佳的「深渊」』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/51.html">51　『魔都的女主人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/52.html">52　『恋慕之心绝不让步』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/53.html">53　『在那十一秒的前方』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/54-A.html">54-A　『理想乡卡欧斯弗莱姆』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/55-A.html">55-A　『魔都狂躁曲』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/56-A.html">56-A　『大灾』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/57-A.html">57-A　『聪明是活不下去的』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/58-A.html">58-A　『无家可归的人们』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/59-A.html">59-A　『塔莉塔・修德拉克』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/60.html">60　『乱世的私生子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/54-B.html">54-B　『遮天蔽日』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/55-B.html">55-B　『城郭都市狂躁曲』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/56-B.html">56-B　『飞龙灾害』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/57-B.html">57-B　『你可以称我为大傻瓜』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/58-B.html">58-B　『无依无靠的人们』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/59-B.html">59-B　『弗洛普・奥克尼尔』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/61.html">61　『欢迎来到剑奴孤岛！』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/62.html">62　『孤岛的秩序』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/63.html">63　『斯帕鲁卡』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/64.html">64　『魔法的语言』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/65.html">65　『学园美食斗士』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/66.html">66　『赫莱茵・伊特』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/67.html">67　『深牙的背面』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/68.html">68　『剑狼的指引』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/69.html">69　『帝都来的使者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/70.html">70　『一个』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/71.html">71　『水』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/72.html">72　『荒谬的传闻』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/73.html">73　『维茨・罗根』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/74.html">74　『伊德拉・米桑加』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/75.html">75　『I know』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/76.html">76　『帝都的邂逅』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/77.html">77　『命运的恶作剧』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/78.html">78　『一触即发的重逢』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/79.html">79　『绯色的大笑』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/80.html">80　『伊丽丝和荆棘之王』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/81.html">81　『女豪杰和小丑』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/82.html">82　『对叛乱者的猜测』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/83.html">83　『战乱与战场』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/84.html">84　『茶室』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/85.html">85　『尤金』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/86.html">86　『五个顶点』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/87.html">87　『巅峰之战』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/88.html">88　『突破口』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/89.html">89　『卡夫马・伊鲁克斯』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/90.html">90　『地狱的摇篮』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/91.html">91　『在战场上奔走』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/92.html">92　『因缘的再燃』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/93.html">93　『石偶军团』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/94.html">94　『为谁而下的决心』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/95.html">95　『顶点楚歌』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/96.html">96　『用深爱描绘』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/97.html">97　『从西边的彼方而来』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/98.html">98　『普雷阿迪斯战团』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/99.html">99　『天空的统治者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/100.html">100　『顶点万化』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/101.html">101　『爱之炎』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/102.html">102　『觉悟之壁』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/103.html">103　『星星的倒计时』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/104.html">104　『顶点乱麻（上）』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/105.html">105　『顶点乱麻（中）』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/106.html">106　『顶点乱麻（下）』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/107.html">107　『奇夏・戈尔德』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/108.html">108　『即将降临的大灾』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/109.html">109　『帝国之剑狼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter070/110.html">110　『庆典』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/index.html">第八章　『文森特・佛拉基亚』（帝皇篇）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/01.html">01　『勝利条件変更』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/02.html">02　『遗恨』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/03.html">03　『三个理由』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/04.html">04　『战士的本能』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/05.html">05　『宽恕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/06.html">06　『我不乞求宽恕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/07.html">07　『托德・芬格』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/08.html">08　『未来的展望』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/09.html">09　『我决定爱你』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/10.html">10　『没有谁能独自一人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/11.html">11　『吵死了』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/12.html">12　『菜月・昂和文森特・埃布尔克斯』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/13.html">13　『各自的伤痕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/14.html">14　『王国和帝国』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/15.html">15　『礼赞』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/16.html">16　『殭尸灾害』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/17.html">17　『魔法的接触』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/18.html">18　『短暂的重逢』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/19.html">19　『巴尔加・克罗姆威尔的计策』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/20.html">20　『两束光』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/21.html">21　『无可避免的天命』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/22.html">22　『我想相信。不会原谅』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/23.html">23　『路伊』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/24.html">24　『光的行动准则』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/25.html">25　『将死之人的愿望』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/26.html">26　『毒姬』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/27.html">27　『贝尔斯提兹・冯达尔福』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/28.html">28　『帝国的兄妹』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/29.html">29　『我不想爱你』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/30.html">30　『凶报』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/31.html">31　『石塊』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/32.html">32　『选拔成员』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/33.html">33　『爱情裁决』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/34.html">34　『在你告诉我答案之前、我是不会放过你的』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/35.html">35　『命悬一线的工作』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/36.html">36　『尸都鲁普加纳』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/37.html">37　『伏线时间』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/38.html">38　『罗恩・赛格蒙特』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/39.html">39　『域外的笑声』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/40.html">40　『微不足道的威胁』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/41.html">41　『地狱之所在』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/42.html">42　『伟大存在的奴隶』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/43.html">43　『各自的体验』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/43_5.html">幕間　『乌比尔克』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/44.html">44　『信任的回应方式』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/45.html">45　『星星的坠落方式』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/46.html">46　『风的味道』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/47.html">47　『坦萨』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/48.html">48　『荆棘的血咒』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/49.html">49　『荆棘之王』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/50.html">50　『尤加尔多・佛拉基亚』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/51.html">51　『王者之坎』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/52.html">52　『米迪亚姆・奥克尼尔』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/53.html">53　『魔弹射手』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/54.html">54　『走马灯』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/55.html">55　『玛德琳・艾沙尔』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/56.html">56　『亚拉基亚』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/57.html">57　『塞西尔斯・赛格蒙特』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/58.html">58　『存在的证明』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/59.html">59　『斯芬克斯』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/60.html">60　『魔女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/61.html">61　『帕拉迪奥・马内斯克』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/62.html">62　『爱的力量』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/63.html">63　『唇上奇迹』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/64.html">64　『帝国的亲子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/65.html">65　『星星下的帝都』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/66.html">66　『魔晶炮』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/67.html">67　『持有的手牌』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/68.html">68　『恋爱中的男人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/69.html">69　『我原谅你了』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/70.html">70　『最后的策略』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/71.html">71　『英雄幻想』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/72.html">72　『太阳公主』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/73.html">73　『宿敌』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/74.html">74　『爱』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter080/75.html">终幕　『普莉希拉・跋利耶尔』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/index.html">第九章　『无名的星光』（尾随星篇）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/01.html">01　『像云一样祈祷吧』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/02.html">02　『反派却毫不张扬』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/03.html">03　『每个人都为你哀悼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/04.html">04　『笨蛋』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/05.html">05　『九百三十一发』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/06.html">06　『新的开始』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/06_5.html">幕间　『卡秋娅・奥雷利』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/07.html">07　『沙风的再会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/08.html">08　『后悔的方式』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/09.html">09　『高效率魔导式诱导门』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/10.html">10　『期限是三天』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/11.html">11　『你已经不在任何地方了』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/12.html">12　『遥远彼方的星光』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/13.html">13　『最受宠爱之物与最不受宠之物』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/14.html">14　『最强』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/15.html">15　『失败者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/16.html">16　『共犯者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/17.html">17　『请不要原谅』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/18.html">18　『百倍麻烦』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/19.html">19　『背后的争斗』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/20.html">20　『生命的使用方式』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/21.html">21　『巴尔加・克罗姆威尔』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/22.html">22　『战斗的终结之法』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/23.html">23　『群英荟萃』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/24.html">24　『人类的天敌』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/25.html">25　『爱蜜莉娅的震怒』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/26.html">26　『剑鬼对决红樱』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/27.html">27　『幼子的言辞』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/28.html">28　『传说的一节』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/29.html">29　『最终席位』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/30.html">30　『Plan B』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/31.html">31　『百分百的工作』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/32.html">32　『名为克林特的男人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/33.html">33　『名为佩特拉・雷蒂的少女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/34.html">34　『引力』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/35.html">35　『觉醒之星』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/36.html">36　『使命』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/37.html">37　『思维模式』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/38.html">38　『被烈日灼烧』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/39.html">39　『最后的界限』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/40.html">40　『雷姆闪光弹』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/41.html">41　『告知篡夺者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/42.html">42　『碎心之事』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/43.html">43　『真实之名』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/44.html">44　『水面下的密约』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/45.html">45　『冲突的异界者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/46.html">46　『忧郁魔女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/47.html">47　『「声音」』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/48.html">48　『巅峰生物』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/49.html">49　『魔法师』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/50.html">50　『冰上决战』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/51.html">51　『雅耶・天泽』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/52.html">52　『阿尔德巴兰 Ⅰ』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/53.html">53　『阿尔德巴兰 Ⅱ』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/54.html">54　『魔人 VS 魔女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/55.html">55　『领域之加害者』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/56.html">56　『佩特拉・雷蒂』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/57.html">57　『最后的侍奉』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/58.html">58　『锁链之音』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/59.html">59　『——不是』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/59_5.html">幕间　『声援』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter090/60.html">终幕　『重织』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/index.html">第十章　『獅子王之国』</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/01.html">01　『朋友』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/02.html">02　『教会的秘仪』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/03.html">03　『光之萌芽』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/04.html">04　『不客气』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/05.html">05　『绕道的始末』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/06.html">06　『瞬间沸腾器』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/07.html">07　『我的朋友』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/07_5.html">幕间　『——为什么？』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/08.html">08　『抉择的结果』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/09.html">09　『爱哭鬼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/10.html">10　『信赖的沉淀』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/11.html">11　『龙珠闪耀的理由』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/12.html">12　『呻吟』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/13.html">13　『鲜血染不尽』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/14.html">14　『逆贼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/15.html">15　『与你共赴地狱』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/16.html">16　『欺骗性的袭击』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/17.html">17　『化为灰烬』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/18.html">18　『梦中的邂逅』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/19.html">19　『过于庞大的敌人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/20.html">20　『羊镜犬面』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/21.html">21　『六枚之舌』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/22.html">22　『布局与抗拒』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/23.html">23　『追寻最优解』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter100/24.html">24　『一个好家伙』</a></li></ol></li><li class="chapter-item expanded "><a href="../../../../markdown/ch/chapter999/index.html">ReZeroEX （外传合辑）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../../../markdown/ch/chapter999/if/index.html">IF 线合集</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/01.html">01　『胡蝶之夢』（色欲 IF 线）</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/02.html">02　『从零开始的 Sane Louis』（强欲 IF 线）</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/03.html">03　『从零开始过错的异世界生活』（傲慢 IF 线）</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/04.html">04　『从零开始溺水的异世界生活』（拉姆 IF 线）</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/05.html">05　『从零开始的拼凑生活』（暴食 IF 线）</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/06/index.html">06　『从 IF 开始的异世界生活』（雷姆 IF 线）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/06/00.html">序章 『启程』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/06/01.html">『两个月』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/06/02.html">『三个月』 上篇</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/06/03.html">『三个月』 下篇</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/06/04.html">『六个月』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/06/05.html">幕间 『忌日』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/06/06.html">『十个月』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/06/07.html">『产月』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/06/08.html">终章 『纪念日』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/07.html">07　『鬼的幸福』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/08.html">08　『梦想的起始』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/09.html">09　『菜月・利格鲁』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/10.html">10　『fortune・fish head tree』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/11.html">11　『Fate・节分霍洛』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/12.html">12　『学院 Re：0！第一堂课！』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/13.html">13　『学院 Re：0！第二堂课！』</a></li><li class="chapter-item expanded "><a href="../../../../markdown/ch/chapter999/if/14.html" class="active">14　『学院 Re：0！第三堂课！』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/15.html">15　『学院 Re：0！第四堂课！』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/16.html">16　『从零开始的异世界生活』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/if/17.html">17　『从零开始的异世界生活Ⅱ』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/ex/index.html">Ex 合集</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/ex/01.html">01　『爱丽丝与荆棘之王』（前編）</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/ex/02.html">02　『爱丽丝与荆棘之王』（後編）</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/index.html">特典合集</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/01.html">『爱蜜莉娅的博客练习用日记』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/02.html">『祝福日 Ex：雷姆的生日派对』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/03.html">『爱蜜莉娅的、Very生日快乐』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/04.html">『为交错的异世界献上联动生活 雷姆篇』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/05.html">『为交错的异世界献上联动生活 莉娅篇』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/06.html">『祭典的喧嚣依稀可闻』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/07.html">『从零开始的常夏生活』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/08.html">『隐之乡的鬼姐妹，欢迎来到晚会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/09.html">『爱蜜莉娅的女仆道』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/10.html">『法兰黛莉卡和佩特拉的、女仆小姐日子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/11.html">『法兰黛莉卡和佩特拉的、女仆小姐日子Ⅱ』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/12.html">『加菲尔和拉姆、乖僻别扭的恋爱』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/13.html">『加菲尔和拉姆、乖僻别扭执拗的恋爱故事』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/14.html">『艾尔莎和梅丽、裏稼業姐妹暗中活动的日报』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/15.html">『艾力欧尔大森林组，等待雪融的季节』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/16.html">『克雷马尔蒂森林组，一去不复返的每一天』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/17.html">『魔女的茶会之余』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/18.html">『爱蜜莉娅的王都观光记』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/19.html">『拉姆谢绝诸位垃圾的搭讪』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/20.html">『爱蜜莉娅的星空教室』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/21.html">『爱蜜莉娅的初次约会』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/22.html">『雷姆人生最美好的日子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/23.html">『安娜塔西娅的卡拉拉基商人道』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/24.html">『爱蜜莉娅和拉姆的主从凸凹』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/25.html">『爱蜜莉娅和拉姆的主从凸凸凹凹』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/26.html">『碧翠丝和雷姆的侍奉很头疼』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/27.html">『大精灵帕克的喵喵喵晴天』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/28.html">『Memory Snow 前日谈莉雅 Days』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/29.html">『冰结之绊 前日谈冰结的日常』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/bd/index.html">BD特典　『Re：从零开始的前日传 冰洁的羁绊』</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/bd/00.html">序章　『四大与异物』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/bd/01.html">第一章　『被你呼唤』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/bd/02.html">第二章　『我在这里』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/bd/03.html">第三章　『只要是为了你』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/bd/04.html">第四章　『什么都能成』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/special/bd/05.html">结尾　『幸福的意思』</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short01/index.html">短篇集　01</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short01/01.html">『从零开始的英雄史诗』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short01/02.html">『女仆长无法放松休息的假日』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short01/03.html">『放弃尾随的日子』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short01/04.html">『爱蜜莉雅梦游仙境』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short02/index.html">短篇集　02</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short02/01.html">『对 E・M・T 献上情歌』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short02/02.html">『RAM IS ORDER』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short02/03.html">『OPERATION・KOKKURI』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short02/04.html">『图书馆员碧翠丝不甘愿的约定』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short02/05.html">『喜欢冷天气』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short02/06.html">『酒精之乱』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short03/index.html">短篇集　03</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short03/01.html">『梦想的起始』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short03/02.html">『菲利克斯・阿盖尔是男儿身女儿心』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short03/03.html">『卡尔斯腾公爵领地的战乙女』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short03/04.html">『菲利克斯・阿盖尔的束缚』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short03/05.html">『狮子王所见之梦』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short04/index.html">短篇集　04</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short04/01.html">『剑鬼恋歌　一幕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short04/02.html">『剑鬼恋歌　二幕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short04/03.html">『剑鬼恋歌　三幕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short04/04.html">『剑鬼恋歌　四幕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short04/05.html">『剑鬼恋歌　五幕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short04/06.html">『剑鬼恋歌　六幕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short04/07.html">『剑鬼恋歌　七幕』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short04/08.html">『剑鬼恋歌　幕间』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short04/09.html">『剑鬼恋歌　落幕』</a></li></ol></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short05/index.html">短篇集　05</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short05/01.html">『my fair bad lady』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short05/02.html">『——佩特拉所见的世界』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short05/03.html">『雷姆极为平凡而幸福的一天』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short05/04.html">『剑鬼恋谭　那之后的两人』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short05/05.html">『剑鬼恋谭　婚礼之日』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short05/06.html">『剣聖と雷光の銀華乱舞』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short05/07.html">『奥尔科斯领的赤雪』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short05/08.html">『从零开始的前日谭　隐世村的鬼姐妹Ex-祝福之日』</a></li><li class="chapter-item "><a href="../../../../markdown/ch/chapter999/short05/09.html">『从零开始的王选生活　金狮子与剑圣』</a></li></ol></li></ol></li><li class="chapter-item "><li class="spacer"></li><li class="chapter-item affix "><li class="part-title">文库版</li><li class="chapter-item "><a href="../../../../markdown/epub.html">Epub 资源</a></li><li class="chapter-item "><a href="../../../../external-links/external-001-f5a678f31816.html">动画资源（无圣光）</a></li><li class="chapter-item affix "><li class="part-title">MF文库J - 原版连载</li><li class="chapter-item "><a href="../../../../external-links/external-002-5adf0e09971d.html">Ｒｅ：ゼロから始める異世界生活</a></li><li class="chapter-item "><a href="../../../../external-links/external-003-5d3a81224e33.html">Copyright @ 鼠色猫/長月達平</a></li><li class="chapter-item affix "><li class="part-title">赞助</li><li class="chapter-item "><a href="../../../../markdown/sponsor.html">关于赞助</a></li><li class="chapter-item "><a href="../../../../external-links/external-004-32cbf9757c65.html">国内通道</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../external-links/external-005-32cbf9757c65.html">主链</a></li><li class="chapter-item "><a href="../../../../external-links/external-006-32cbf9757c65.html">备链</a></li></ol></li><li class="chapter-item "><a href="../../../../external-links/external-007-6f5f6495f205.html">海外通道</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../../../external-links/external-008-6f5f6495f205.html">Open Collective</a></li><li class="chapter-item "><a href="../../../../external-links/external-009-669f936950c4.html">KO-FI</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Re：从零开始的异世界生活</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/re-zero-khis/re0-web" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/re-zero-khis/re0-web/edit/master/gitbook/src/markdown/ch/chapter999/if/14.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="学院-re0第三堂课"><a class="header" href="#学院-re0第三堂课">『学院 Re：0！第三堂课！』</a></h1>
+<hr />
+<p>我每天早晨，都会因受到突然的冲击而醒来。</p>
+<p>「——喂，快点起床啦！」</p>
+<p>「还不起吗！？」</p>
+<p>与轻快的声音相比一点都不轻柔的冲击，直击我的腹部。我呜哇的发出一声悲鸣，醒来后，映入眼帘的是妹妹令人怜爱的脸庞。</p>
+<p>「……早，碧翠子。今天你也依旧可爱迷人呢」</p>
+<p>「那是当然啦。贝蒂每天都很可爱的说。嘿嘿，这么美好的早晨你还不赶快起来，和贝蒂共进早餐。」</p>
+<p>碧翠丝骑在我的肚子上，展露笑容。被那轻柔的身体压著，我点头敷衍道「知道了知道了」。</p>
+<p>「什么啊！你完全就是不想起！这分明就是还要睡回笼觉的姿势嘛！」</p>
+<p><img src="../../../../res/imgs/article/chapter999/if/15-1.png" alt="" /></p>
+<p>「唔，知道了啦，碧翠子。我想在我有限的人生裡珍惜和你一起吃早餐的时光。但是，同样的，我也想享受早晨赖床的时光啊……」</p>
+<p>「好气！贝蒂不准！昴真是……赖皮！你说，贝蒂我和回笼觉，哪个更重要！」</p>
+<p>「说出那种只有在晨间剧女演员口中才会听到的台词你……不，等等，有办法了！」</p>
+<p>「——？你又突然想到什麽……呜哇！？」</p>
+<p>一举将坐在我肚子上摇摇晃晃张开双臂幼女，用被子罩住。抚摸着完全被我抱在怀里的妹妹的头，我拉着碧翠丝和我一起陷入舒服的回笼觉中。</p>
+<p>——这就是，回笼觉和妹妹二者兼得。</p>
+<p>「这样，碧翠子也可以一起享受睡回笼觉的快乐。而且其幸福程度是一般回笼觉的两倍……不，说是数倍都不为过了。」</p>
+<p>「又开始说蠢话了呢！放，放开我！贝蒂已经不是和昴一起睡觉的小孩子了。」</p>
+<p>「欸—，最近不能和碧翠子一起睡了，好—寂—寞—啊—……。所以，要趁此机会摄取足够的碧翠丝。嗅嗅」</p>
+<p>「别在那边嗅来嗅去啊！」</p>
+<p>在我臂弯中不断挣扎可爱的碧翠子说道。顺带一提，我研究过『碧翠丝』对我的作用，就是，只要与碧翠丝接触或者相亲相爱的话，就能摄取一种特别的脑内物质。如果不摄取这物种质的话，菜月家的男人就会日渐消瘦然后死去。虽然样本只有我和我父亲二人啦。在我和妹妹嬉闹著的时候，我真的就开始变得清醒了。</p>
+<p>「啊啊，可恶……中了碧翠子的圈套啊。这是她用可爱的自己当做诱饵，将我与睡意相分离的计谋，中计了……」</p>
+<p>「真，真是的，真不知道你在说什麽，总之赶紧放开我。啊啊，精心打扮的头髮和衣服都被弄得乱七八糟了啦」</p>
+<p>「放心。就算是乱七八糟的你，魅力也分毫不减哦。凌乱也有凌乱的美呢。凌乱的碧翠子。」</p>
+<p>「一直说凌乱凌乱什麽的，烦死了！！」生气的碧翠丝从床上跳下，衝著我可爱地吐了吐舌头。看著发脾气的妹妹，已经起床的我挠著头，歪头道「奇怪？」。</p>
+<p>是因为时钟。准确的说，是时钟上的时间。那是——「喂喂，碧翠子。你今天叫醒我的时间比平常要早嘛。真是难得的冒失呢。那么，我就继续睡喽。」</p>
+<p>「不要一副无奈的表情啊喂！不想让我再跳上去吧！算了不扯那些，贝蒂今早是因为有别的原因才会早一小时叫醒你。因为这样时间才够啊」</p>
+<p>「时间才够是……」</p>
+<p>「从今早开始，贝蒂就要参加学校远足执行委员会的会议了。所以我要比平常起得早，吃完早饭就直接去学校啊。」</p>
+<p>「是这样啊，那我去学校的时间是充裕……的啊！」</p>
+<p>看着自豪的碧翠丝，磨磨蹭蹭拖时间的我反驳道。就算妹妹在怎可爱，也要对错分明。我果断的选择了反对这种自私行为的方针。</p>
+<p>「回笼觉被打断的我心中可是充满了怨恨的哦。你打算怎麽说服我？来，说说看，碧翠子！为什麽要叫醒欧尼酱我！」</p>
+<p>「因为，就贝蒂一个人早起，不能和昴道早安，一起吃早饭，送昂出门，感觉好孤单呢……」</p>
+<p>「可恶，太可爱了！」</p>
+<p>毕竟，妹控是无法拒绝妹妹可爱的愿望的！为了回应坦率的碧翠丝，我爽快的起床。确实清醒了不少，现在也不可能再继续睡下去了。这只是原因之一，并且回应可爱妹妹请求是作哥哥的义务啊！</p>
+<p>「那么，既然如此，碧翠子你就来帮我换衣服吧」</p>
+<p><img src="../../../../res/imgs/article/chapter999/if/15-2.png" alt="" /></p>
+<p>「你自己换啊！」</p>
+<p>果然也没到那种程度呢。不论如何，我总觉得这是我想永远定格的时光，也是我想永久珍藏的记忆。</p>
+<p>「那么，碧翠丝酱的东西都拿好了吗？」</p>
+<p>「拿好了，正准备出门呢」</p>
+<p>即使是清晨，两人嘴角的笑容依旧耀眼。佩特拉酱从家出发来找碧翠丝，两人一起朝着学校的方向走去。不论做什么都要一起的二人，看来这次的远足执行委员会议也是一起去，她俩一点都不在意要早起上学校，反而觉得充满了新鲜感。作为兄长的我，十分担心那个非常全能，各个方面都很能干，却有点笨拙的妹妹。但看着这场景，心中却有种莫名的安心感。那两人一起的话，就算是征服天下也能做到吧。</p>
+<p>「这样让我感觉好寂寞呢，不过笑着送妹妹走花路也是作为哥哥的使命……。要是她的志愿是武道馆就好了，我就算死了也值了……」</p>
+<p>「喂喂，现在说这个还为时过早，儿子。不过确实，我家可爱迷人的女儿在武道馆 C 位出道，也不是不可能啦。但是还有5年，所以爸爸我现在是不会同意的」</p>
+<p>清爽但又目中含泪、送妹妹出门的我，在玄关处和父亲聊道。日常半裸率异常高的父亲，也不得不在佩特拉酱拜访时穿起衣服。他的T恤正面印着碧翠丝的笑颜，这是为了让他在妹妹早起上学期间，也能感受她的可爱而特意准备的。</p>
+<p>「不要难过。背后也印了你小时候的笑颜哦」</p>
+<p>「我才不会难过，也请你和青春期的儿子保持距离好么。碧翠子怎么想的我不清楚，但像我这个年纪的男孩子，不知道会做出什么让家庭破裂的事情呢。」</p>
+<p>「别说这么恐怖的话。背后印的虽然是你小时候的照片，但是我也一样爱现在上高中的你哦。明白否？」</p>
+<p>「你每天都说我当然知道啊」</p>
+<p>每天都要向爱的人传达自己的爱意，是我家的家训。我很尊重很对此颇为重视的父亲，但对于处于现在这个年龄的男生来说，执行起来确实很困难。</p>
+<p>「我对碧翠子和母亲说『我爱你』时倒是不会害羞，但是真的要每天也对你说吗？」</p>
+<p>「哼，真不可爱！话说，碧翠子已经去学校了，你怎么办？时间还早，在雷姆酱来找你之前，和我来一局相扑怎么样？」</p>
+<p>「大清早起来就要和爸你相扑什么的，我什么时候变成火之丸男子了。不过确实，也不能就这么呆坐着……那么」</p>
+<p>我也不想象父亲说的那样，把时间浪费在和他相扑上，所以我在玄关处换上鞋，准备出门。难得的早起，为了珍惜这段清晨的时光，我决定去散步。</p>
+<p>「早起三分利，说不定会有好事发生呢」</p>
+<p>「去散步啊。等我换个衣服。」</p>
+<p>「我才不和爸你一起去！我要一个人去！你就和妈在家恩恩爱爱吧。」</p>
+<p>「嗯，是吗。感觉让你一个人去不太好呢。话说让我待在家里，你都不担心一下么」</p>
+<p>「你们两个在家我有什么好担心的！相亲相爱伴侣就不要在我这个单身狗的伤口上撒盐了喂！」</p>
+<p>我直率地坦白焦虑后，万分沮丧的出门了。不论如何，现在都不可能回去了。父母结婚20年来，还是像新婚时一样相爱，不过作为儿女也很难办就是了。当然，我也希望他们能一直相亲相爱下去。</p>
+<p>「不知争吵为何物的我家……也有时会在某件事情上分歧，果然不存在诸事顺利这种东西」</p>
+<p>经历的烦恼、不幸、阻碍都要比别人少的我，不由自主地感慨道。所以，能出生在菜月这个平凡的中产家庭里，并且家庭关系和睦，还有个可爱的妹妹的我，对此感到万般荣幸。</p>
+<p>「感谢我所降生的时代，感谢我所拥有的爱，感谢阳光照耀的大地，我是就是无人能当Baby,Skrrrrr」（Fit.aka.Subaru）哦哦，不知不觉嗨起来的我开始Rap了创作。原来，早起真的会使人头脑清醒啊。沐浴着早晨的微风，走在与其他时间相比人员稀少的街道上真是一件风雅的事情呢——「——啊，昴，早安。真的好巧啊能在这遇到你。」</p>
+<p>「呜哇啊啊啊！？」</p>
+<p>什么都没想，开始边蹦跶边向前走的我，突然听到有人和我说话，着实吓了一大跳。完蛋了，我那不分场合的暴躁rap是不是被听到了，重要的是，向我搭话的那个声音竟然如银铃般动听。那声音的主人，除了那个在我生命中闪闪发光的她也没别人了。</p>
+<p>「艾，艾米莉娅碳？这么早为什么你会‘存在’！？」</p>
+<p>「呵呵，我知道你被吓到，但是也不至于吓到口齿不清，把‘存在’这个词都说出来吧。我可是，在昴不在的地方也进行着生命活动的哟。」</p>
+<p>「是，是哈。哈哈，嘿嘿，我被吓到了嘛，嘿嘿……」</p>
+<p>可恶啊，在这意外的相遇下我竟然笑的这么猥琐。然而，站在陷入反省的我旁边的，眼前的少女——转校生艾米莉娅，正满眼温柔，噙着如天使一般笑容看向我。有着和她那如月光似的美丽长发一般，纤长的四肢。真是个魅力满满的孩子啊。刚刚才转学过来，还没拿到校服的她，在学校都是穿着之前，就读与的女子学校时的校服。但是现在不一样了。穿着轻薄的衬衫，以及看着就感觉很柔软的飘飘短裙——这是她的私服啊！</p>
+<p><img src="../../../../res/imgs/article/chapter999/if/15-3.png" alt="" /></p>
+<p>「话说，你穿私服好可爱……」</p>
+<p>「欸，是吗？谢谢夸奖。昴，你的私服也很……咦？」</p>
+<p>「啊，这个啊？这是我甜美可爱的妹妹碧翠丝哟。是不是很可爱？这是她刚起床头发还乱蓬蓬的样子……」</p>
+<p>在歪着头好像很疑惑的艾米莉娅面前，我自顾自的炫耀着令我满意的T恤。我穿着的和我爸穿着的那件不一样，是前后都印着碧翠丝的脸另一种款式。我明白父亲的想法，但是我不允许在可爱的碧翠丝之中有我这个杂质的存在。</p>
+<p>「哇，是妹妹诶。好可爱的孩子啊！」</p>
+<p>「嗯——你能明白吗？是的呢，她真是个可爱的妹妹呀。最近有点处于叛逆期，以前不管去哪里都会乖乖地跟我来的……倒也不是我自夸，贝亚子是我养大的哦」</p>
+<p>「啊！？那爸爸妈妈去哪儿了！？」</p>
+<p>「当然也有那两个人的力量，不过嘛，双亲的力量合起来也不过是七三开，总归还是我的胜利。」</p>
+<p>「是啊。昴真是个非常努力的人呢……」</p>
+<p>虽然是和往常一样说俏皮话，但多亏了艾米莉娅什么都能很好地听进去，在口中滑了滑舌头。不管怎么说，我最初的冲击感也缓和了，在此余裕中也品味到了邂逅转校美少女的喜悦。</p>
+<p>「呀啊」</p>
+<p>「诶！？」</p>
+<p>「怎、怎么了！？突然发出那样的声音……」</p>
+<p>在我对突然的事情感到吃惊时，一旁的艾米莉娅也对我的反应感到惊讶。</p>
+<p>但是，要是她采取理所当然的态度的话，我也会很困扰。因为现在，那只猫——、</p>
+<p>「是在嘀咕着什么吗？向着我这边，它使劲地挥起了手……」</p>
+<p>「啊？怎么可能嘛。即使你再说这样的话……就算是想捉弄我，我也不会被骗的哦」</p>
+<p>但是，我说出的征求其确认的话语，艾米莉娅是完全听不进去的。不，倒不如说她的反应才比较正常。如果，艾米莉娅说「对啊对啊，帕克是会说话的猫咪哦，很稀奇吧？」要是说出那种话，可就更让人不知所措了。</p>
+<p>「嘛，大概是听错了，应该是错觉吧。唉，真是吓了我一跳」</p>
+<p>「嗯嗯。就那么着吧。让莉娅吃惊，还被人用奇怪的眼神盯着，即使是昴也会感到不高兴吧？」</p>
+<p>「你这猫不要用理所当然的语气对我说话！」</p>
+<p>从墙上跳下来的猫——帕克，在我脚下蜷曲着，用那种语气跟我说话。那种堂堂正正的人外（小猫）姿态真是吓了我一跳，我将帕克抱了起来。</p>
+<p>啪，帕克的肉球被压在脸上，仿佛有种从内心深处涌出的治愈感。</p>
+<p>「顺便说一下，我没有能和动物对话的特殊能力。也就是说，奇怪的不是我，而是你帕克哒」</p>
+<p>「嘛，如果昴想这么主张的话，我也不会阻止的。但既然你已经做了这样的事情，昴肯定会被人用奇怪的眼光看待哦。你瞧！」</p>
+<p>被那样说，我看向旁边。于是乎，艾米莉娅瞪圆了紫绀色的眼睛，就在一旁，诧异地来回瞪着我和帕克。</p>
+<p>「总觉得，昴和帕克好像真的在对话。帕克第一次被其他人抱着而完全没有想挣脱的意愿，真少见呢」</p>
+<p>「是吗？顺便说一下，在艾米莉娅看来是什么样子的？」</p>
+<p>「啊？可爱的帕克在喵喵地叫着，而且昴一副使坏的样子好像在说什么……」</p>
+<p>「我的形象这么糟糕吗！或者说，这居然是真的吗，这个……」</p>
+<p>从艾米莉娅的反应来看，好像除了我以外的其他人根本听不到帕克的声音。我的手被拨开，帕克优雅地跳下着地。</p>
+<p>然后，帕克一边用手洗脸，一边说</p>
+<p>「不用担心，奇怪的故事不会就此开始。另外，我不会让你成为魔法少女，也不会要求你实现我的愿望，更不会说「宇宙熵值」之类的话，所以请放心地签订契约吧」</p>
+<p>「我才不会签契约呢！契约这个词一听就让人不安心！」</p>
+<p>「我是说笑的啦，开个玩笑而已」</p>
+<p>咯咯咯地笑了起来，帕克一下子飞跃到艾米莉娅的胸前。艾米莉娅接住了帕克，抚摸着它的后背。</p>
+<p>「不过，帕克和昴关系变好了真是太好了。稍微有点担心呢」</p>
+<p>「担心吗？为什么会这么想呢？」</p>
+<p>「因为帕克和我的朋友相处不怎么融洽……啊，昴，做我的朋友可以吗？不会拉不下脸吧？」</p>
+<p>「不不不不不不不，完全没有！完全没有。倒不如说，能成为你的第一位朋友我感到非常光荣。而我也想从那个朋友的位子上升级，总有一天」</p>
+<p>「对不起，我不知道你在说什么。」</p>
+<p>我的坏习惯是一说话就不小心把脑中多余的话一股脑儿的都说出来了。</p>
+<p>总之，像这样和艾米莉娅相遇也是一种缘分——</p>
+<p>「反正是散步的话，我也可以一起去吗？最终的目的地是去学校这一点是不会变的。在这里只有一件事——来潇洒地约会吧」</p>
+<p>「然后……和男孩子一起出门？真的？！」</p>
+<p>「啊，莫非是第一次吗？」</p>
+<p>看着眼睛闪闪放光的艾米莉娅，我才想起来，她的中小学都是女子学校。</p>
+<p>如果要成为一名合格的女子学校的学生的话，确实就没有机会和男生一起出门了吧。</p>
+<p>那样的话——</p>
+<p>「我是第一次……该怎么办呢？」</p>
+<p>「等一下！如果是和艾米莉娅的第一次约会的话，我想要好好地对待！最起码，穿着这种胸前和背后还有两侧的腋下都印有妹妹的脸的T恤是不合适哒！」</p>
+<p>「藏在腋下的贝亚托利丝酱……！」</p>
+<p>「说起来，我也是那种只要做好约会的打算就会想摆好架子认真准备的类型。</p>
+<p>倘若是不可多得的能够刻入回忆的时光，那可得好好调整调整舞台」</p>
+<p>「冷静下来仔细回想，我也没有约会的经验……」</p>
+<p>「是吗？但是，昴好像和班上的大家的关系都非常要好……」</p>
+<p>「怎么会，如果只是简单地和女孩子出门的话还是比较常见哦？因为经常和青梅竹马的雷姆一起去买东西，时不时还和作为雷姆姐姐的拉姆一同去购物」</p>
+<p>但是，仅算上和青梅竹马出门的次数不就太寂寞了吗？</p>
+<p>当然，也有在学生会的帮助下陪着库珥修、菲利斯、安娜塔西娅他们购物的时候，或是被因没抓到阿尔而不高兴的普莉希拉强行拉走的时候。我还和隔壁家的六个美人姐妹也有玩过——</p>
+<p>「这么一想，从他人的视角来看我好像经验很丰富……」</p>
+<p>「『士贰其行』呢。嗯，我就知道。总觉得昴就是这样的感觉」</p>
+<p>帕克的原话是「外身と中身が釣り合ってないんだね」大概是一种花心大萝卜三心二意言行不一的意思，所有我用了一个比较生僻的词「士贰其行」。这个词同时包含了三心二意言行不一的意思，这个词出自于《诗经・氓》，讲的便是一个渣男的行径，所以放在这里正好符合帕克的意思。</p>
+<p>那么，既然如此的话，到底应该怎样介绍路线是个令人烦恼的地方——</p>
+<p>「对我来说视野很好，如果风吹得很舒服的话会很开心吧。因为不太想运动，所以请避开坡道多的地方……姑且，在猫协定中还没有向这一带野猫打招呼。所以，如果能避开 BOSS 猫的地盘的话，那就太好了」</p>
+<p>「不要把要求定的太过于详细……不，我反倒应该感谢呢」</p>
+<p>「对吧？约会的时候被说‘哪里都可以’的话会很困扰」</p>
+<p>虽然对帕克的这番话感到不满，要求的选定条件越严格，就越容易缩小候选范围。</p>
+<p>因此，我选择和艾米莉娅的散步约会的路线是——</p>
+<p>「好的，那就选择去堤坝的路线吧。旁边就有一条潺潺溶溶的大河，看着富丽而舒心」</p>
+<p>就这样，我们镇的堤坝发出了邀请。</p>
+<p>这条河堤的旁边流淌着小有名气的大河，元旦时从这里冉冉升起的旭日美景被视为珍宝，平时热爱运动的年轻人和老年人也会在这儿慢跑。</p>
+<p>当然，也有很多人和我们以同样的目的来造访堤坝，偶尔能看到牵着狗狗的饲主们在愉快地聊天。</p>
+<p>能看到……</p>
+<p>「果然还是找不到遛猫的饲主啊……」</p>
+<p>「因为猫咪不喜欢戴项圈和被人牵着鼻子走，所以……但是，帕克经常叫我起床让我陪它散步」</p>
+<p>「诶，是这样的啊」</p>
+<p>「嗯嗯。果然，不和莉亚在一起的话，就没有开启崭新的一天的感觉呐」</p>
+<p>目的是为了陪宠物散步，但是到了细节处就会注意到饲主们的不同，抱着帕克的艾米莉娅愁眉苦脸。</p>
+<p>虽然艾米莉娅的说法也只是太过溺爱宠物的饲主的自作主张罢了，但实际上从帕克的感想来看，似乎这并不是艾米莉娅的「单相思」。原以为世界上的猫都认为主人只是铲屎官，看来这是我的错误偏见啊。</p>
+<p>「话说，明明是散步，却一直被艾米莉娅碳抱着。」</p>
+<p>「――？诶，因为帕克不喜欢走路，所以我总是抱着它。但是，偶尔胖得厉害的时候，我会让它好好运动的」</p>
+<p>「是的呢。总觉得，曾经有过一种先入为主的观念，那就是动物体型一旦走样之后就无法恢复原状了，但是这样的现象还是可以发生的」</p>
+<p>「嘛，这是努力的结果吧」</p>
+<p>「胖不是因为懒惰嘛……」</p>
+<p>面对一脸骄傲的帕克，我只得耸了耸肩。</p>
+<p>嘛，因为目前帕克还很瘦，并且它似乎不打算从艾米莉娅的怀里出来。所以，要是艾米莉娅不嫌重的话，我也不好多说什么。</p>
+<p>「但是，一直抱着猫不是很辛苦吗？虽然帕克比较小」</p>
+<p>「没关系。别看我这样，其实我也挺有力气的。即使是在以前的学校，凡是有什么体力活，我总是第一时间被大家拜托的对象」</p>
+<p>「虽说以女子学院的大小姐们的评判标准来看很有实力但……」</p>
+<p>即使胳膊又细又白很有力量，但看上去如此柔软，所以没什么说服力。话说回来，撸起袖子就会很有劲的话，我也有这样的自信。</p>
+<p>这类问题大多都因为无法客观看待自己，我和艾米莉娅在这方面大概也差不太多吧。</p>
+<p>正这样说着——</p>
+<p>「——咦？昴君，怎么了？」</p>
+<p>听到了非常熟悉的声音，我吓了一跳。</p>
+<p>用不着回头便可确认。不管怎么说，对我来说就如同家人一样，因为已经听惯了的对方的声音。</p>
+<p>「啊？雷姆？你才是，怎么会在这里？」</p>
+<p>「今天早上有姐姐陪伴哦。但是，没想到能和昴君见面……果然，只要跟着姐姐大人好处便效果拔群。」</p>
+<p>「即便奉若神明，拉姆也是你的姐姐。」</p>
+<p>还是老样子，我对仰望着脱离常规的姐姐的雷姆苦笑着。</p>
+<p>站在堤坝上的是穿着可爱私服的雷姆，她的语气一如既往。由于假期时我们也经常在玩，所以没什么新鲜感，但加上「日常早晨」的特性，一下子就显得很华丽。嗯，「日常」加成。</p>
+<p>「喂，昴。那个孩子是同班同学吧？」</p>
+<p>「嗯？啊，是的是的。这孩子是雷姆。我的家务万能青梅竹马。」</p>
+<p>艾米莉娅不停地戳着我的后背，我开始反省自己的所作所为。然后我向旁边挪了一步，将雷姆介绍给艾米莉娅。</p>
+<p>然后、</p>
+<p>「雷姆，如你所见，这位是艾米莉娅。我偶然遇见了带猫散步的她。现在我们正在选择适合懒猫散步的路线」</p>
+<p>「原来如此，原来是这样啊。——容我换种说法，我叫雷姆。我和昴君的关系从泡在同一个温泉的时候便开始了」</p>
+<p>「别乱说啊。和你泡在同一个温泉里的是姐姐大人吧」</p>
+<p>「哦。我搞错了，应该是包在同一件衣服里」</p>
+<p>「那也是姐姐大人。」</p>
+<p>我从出生到现在就没记得有过这事，我和雷姆的生日仅仅相差了两个月左右，所以我想这大概是子虚乌有吧。</p>
+<p>「啊，多谢关照。我是艾米莉娅。这孩子是灰猫帕克」</p>
+<p>「快递员一般的自我介绍……」</p>
+<p>「哇，真是可爱的猫啊。可以撸一下吗？」</p>
+<p>「当然。看，帕克，把肚子露出来」</p>
+<p>「没办法啊」</p>
+<p>帕克仰天朝上，艾米莉娅和雷姆两人嬉闹着。我抱着胳膊望着她们，歪下了头。</p>
+<p>「雷姆，刚才你说是你是姐姐大人的陪同，为什么是在堤坝？和拉姆有什么关系？」</p>
+<p>「那是因为姐姐大人正在特训。」</p>
+<p>「特训？」</p>
+<p>「是的。」</p>
+<p>一边用手指揉着帕克的肚子，雷姆一边骄傲地微笑着。</p>
+<p>看这样子，雷姆肯定是在炫耀拉姆或炫耀我。拉姆暂且不论，别人夸我的话，我会觉得很难为情，但是我在和别人谈论到雷姆时也会很自豪，所以这是彼此都有的想法吧。</p>
+<p>「雷姆的姐姐是同班的拉姆吧？」</p>
+<p>「嗯，是的。对于雷姆来说非常荣幸，有一个如此优秀的姐姐」</p>
+<p>「雷姆对姐姐的过分偏袒已经是老毛病了，姑且听听就行了」</p>
+<p>「呃，没那回事」</p>
+<p>雷姆生气地鼓起两颊把脸背了过去,然后又突然转过身来，「所以呢……」雷姆又开始说拉姆的事情了。</p>
+<p>「正如昴君也知道的那样，运动能力超群的姐姐大人被各种社团的人委托帮助……」</p>
+<p>「啊，是啊。经常在各种各样气派的社团活动中看到她。即使便混在男人堆里也完全没问题，那就是她卓越的才能啊……」</p>
+<p>不管是做什么，凭借拉姆卓越的特性都能很快提高，特别是在被问到核心的项目上，不管什么方面都是出类拔萃的。</p>
+<p>因此，就这点，雷姆夸张赞美也没错。</p>
+<p>「那么，如此厉害的拉姆怎么了？」</p>
+<p>「是的。因为姐姐大人是那样可靠，所以又被某个社团拜托了……因为想认真对待，所以开始了早上的特训」</p>
+<p>「拉姆！？她还能够做那样了不起的事！？」</p>
+<p>震惊，这件事堪比晴天霹雳。</p>
+<p>原本，凭与生俱来的天赋自食其力的拉姆，基本上是自大的、自信过剩的而且也经常出现与之相符的结果。</p>
+<p>所以，我以为这一切都是与努力无缘。</p>
+<p>「而且那家伙现在应该是沉迷于照顾小说家罗兹瓦尔先生吧？连雷姆都被带出来了，不是应该好好照料吗？」</p>
+<p>「虽然是这样，但是也在朝着不一样的方向努力着。所以，雷姆也想支持这种想法，便准备着」</p>
+<p>「哇，好厉害。所以才会变成这样的远足呢」</p>
+<p>在充满干劲的雷姆身后的休闲座椅，上面摆放着野餐用篮子、水壶、紧急时刻救命用的急救箱、毛巾套装等物件。</p>
+<p>未雨绸缪以备不时之需也是雷姆的美德，不过，考虑过多以至于准备多余的东西倒是玉之瑕疵。</p>
+<p>「嘛，做到这个地步的话，拉姆想必也会很满足吧……但是，拉姆那家伙说必须做到那种地步，到底是答应了什么样的部门呢？」</p>
+<p>「是女子柔道部呢。」</p>
+<p>「女子柔道部……我们学校还有这种部吗？不知道呢」</p>
+<p>即使听了雷姆的话，我也想不起什么女子柔道部。</p>
+<p>我们的露格尼卡学园是一所很盛行社团活动的学校，即使是在县大会上也能够取得不错的成绩。</p>
+<p>因此，如果是有名的社团的话，即使是普普通通的社团也能听说其威名的。</p>
+<p>「不只是那些社团，我们的手艺部和家庭科部也是全国大赛的常客。」</p>
+<p>「欸欸，是呐。好厉害啊……诶！手工艺部和家庭科部的全国大会！？」</p>
+<p>「呃，你在想什么呢？我说一下，这附近是体育系……说是文化运动部也不过分。比赛缝制波浪的速度，在限制时间内争能把线穿过几根针，还有缝纫机的设置的正确性……」</p>
+<p>这真意外之外，手工艺如果能彻底体现竞技性的话，大概也会有很多深奥的东西。</p>
+<p>顺便说一下，我们学校是全校大会的常客，一般情况下，手工艺部和家庭科部同时出场，以互相击溃对方为结束的情况比较多。</p>
+<p>那被大家认为是法兰黛莉卡老师和柯林特老师之间的虎与鹰的代理战争。</p>
+<p>「嘛，我们学校最有名的是莉莉安娜率领的轻音部。目前正在全国巡演，在独立制作人中也算小有名气了」</p>
+<p>「已经完全不是社团活动了啊！」</p>
+<p>「露格尼卡学园那边的纲纪比较宽松，所以好像被允许了。莉莉安娜老师的热情似乎也传达给了威尔海姆校长」</p>
+<p>「莉莉安娜的伶牙俐齿与吉他击穿了威尔海姆校长的心，这是传说中的直接谈判吗……我在读的时候也想看看」</p>
+<p>对比鲜明的莉莉安娜和校长先生，也许是因为对喜欢的东西充满热枕这一点上一致，相性上是完全不差。</p>
+<p>被校长的温声细语所感动的莉莉安娜的《剑鬼恋歌》在轻音部的组合中也很有人气，封面上甚至使用了校长夫妇的照片。</p>
+<p>「考虑到和莉莉安娜闲聊还算投机，所以就放在一边……女子柔道部的拜托我知道了，为什么拉姆要特训呢？」</p>
+<p>「那是……」</p>
+<p>「——想要逐一知晓拉姆的行动，真是个丑恶的男人啊。」</p>
+<p>「哇！？」</p>
+<p>突然听到从身后飞过来的冰冷的声音，我吓得一个哆嗦。</p>
+<p>雷姆的回答被完全掩盖住，像是鼓膜直接被指甲闹闹抓住，这也是我的青梅竹马拉姆。穿着连帽衫和慢跑鞋的拉姆一边轻轻地喘着气，一边用那浅红的眼睛直勾勾地盯着我。</p>
+<p>「那么，为什么巴鲁斯会冒出来呢？难道是在听说拉姆正在特训，所以故意跑过来吗？」</p>
+<p>「谁会做那种闲人才干的事。就像姐姐大人也知道的那样，我是那种想要确保睡眠时间到极限的类型。所以连学校都选在了离家最近的地方」</p>
+<p>「因为巴鲁斯以那样的理由选择了学校，所以拉姆也不得不选择那个学校……哈。真是任性啊」</p>
+<p>把手放在额头上拭去汗珠的拉姆叹息着。</p>
+<p>在拉姆和我对话的背后，我听到了艾米莉娅对雷姆说的悄悄话。</p>
+<p>「喂，为什么昴选择的学校，拉姆也必须要去？」</p>
+<p>「那很简单。因为昴君决定去的学校雷姆也要去。而且，雷姆想和姐姐上同一所学校，所以也拜托姐姐大人了」</p>
+<p>「是这样啊。……哦，这就是雷姆的任性吗？」</p>
+<p>「是的。照顾了雷姆的任性，姐姐大人太温柔了」</p>
+<p>脸颊微微染上红晕，雷姆感受着被姐姐爱着的实感。</p>
+<p>从现在的对话中也可以看出，表面上看似旁若无人的是拉姆，但实际上，在姐妹力量关系中雷姆是占据压倒性的优势的。</p>
+<p>不过，雷姆对拉姆的尊敬是真的，所以雷姆不会随意利用姐姐。只是，撒娇的方式很强。</p>
+<p>「嘛，作为雷姆的雷姆，这样就可以了……直到出汗都在运动，真少见。罗兹瓦尔会去女子柔道部取材吗？」</p>
+<p>「不要什么都和恋爱联系起来啊，发情脑」</p>
+<p>「发情脑说得太过分了吧！」</p>
+<p>对很毒舌的拉姆进行反驳，拉姆却说「哈！」像往常一样被嘲笑着。但是，如果没有和罗斯瓦尔交往的话，可就搞不清楚了。</p>
+<p>能让拉姆全力以赴，我只够想到罗兹瓦尔和雷姆。</p>
+<p>「女子柔道部的部员数很少，如果在这次大会上三年级的学生退役了的话，社团活动就无法维持了。所以，姐姐大人作为帮手，只想取得一个好的结果」</p>
+<p>「是这样啊。拉姆桑真是非常温柔呢」</p>
+<p>「――――」</p>
+<p>雷姆解开了我这样的疑惑，对那个说明艾米莉娅在胸前双手合十，躺在床上的帕克也佩服地点了点头。</p>
+<p>原来如此，我也同意了雷姆的说明。拉姆看起来对任何人都不分青红皂白地进行低温处理，但意想不到还有深厚的厚谊。</p>
+<p>「……纳尼，眼睛」</p>
+<p>「不，没什么。只是，姐姐大人意外的温柔……好痛！」</p>
+<p>毫不留情地给膝盖内侧来了一记踢！</p>
+<p>我膝盖跪地，拉姆摆出漂亮的姿势踢了脚后立马收腿。</p>
+<p>「练习柔道扫堂腿。好像出成果了呢」</p>
+<p>「像这样一脚踹进去的话，那一瞬间女子柔道部就禁止出入了……！」</p>
+<p>「不用担心，这次大会结束后女子柔道部就解散了。以后也不会再有后患了」</p>
+<p>「既然是为了遮掩那还说什么暴言啊！」</p>
+<p>拉姆连温柔都不肯对我坦率承认，这态度真让我吃惊，我摇晃着膝盖站了起来。嗯，脚总算是动了。</p>
+<p>之前说了太多俏皮话，被拉姆的扫堂腿踢了太多的时候，连脚都肿成红紫色了，腰和腿都站不起来了。</p>
+<p>「那时候，我宣称是由于脚被院子里的蟒蛇给勒过的原因……」</p>
+<p>「真不愧是蟒蛇，是在院子里遇到的吗」</p>
+<p>「毕竟总不能说被青梅竹马踢了所以站不起来吧？」</p>
+<p>被懒猫说教常识，我是真没想到。</p>
+<p>另外，休息结束后对了解情况的雷姆说：「是蟒蛇做的！不是姐姐！」一直拼命地诉说着，所以我的抵抗追究以徒劳告终。</p>
+<p>「然后呢？拉姆和陪伴着我的雷姆暂且不论，睡懒觉的惯犯巴鲁斯是被什么风给吹来的呢？而且，可爱的转校生也在一起……真是讨厌」</p>
+<p>「不要随便下结论！早起是因为贝亚子，和艾米莉娅碳只是偶遇！真是瞎猜！」</p>
+<p>「吵死了」</p>
+<p>「蛇拳！？」</p>
+<p>面对我的吐槽拉姆连续放出一套招式，这是一种被称为蛇拳的中国拳法。是模仿蛇类动作的可怕的杀人拳法，不过，为何要修炼这套拳法还是个谜。</p>
+<p>「正如巴鲁斯说的那样。偶然在附近散步的时候遇到了巴鲁斯。真是偶然啊」</p>
+<p>「这是忠告，这真的是偶然吗？」</p>
+<p>「诶，难道……果然，决斗吗……？」</p>
+<p>「姐姐大人不要多嘴！并且，昨天的事情还在拖着！」</p>
+<p>拉姆的直觉暂且不论，艾米莉娅是完全误解了。</p>
+<p>总之——</p>
+<p>关于我在放学后带艾米莉娅介绍学校的时候被误以为是约架这件事的原委，参考『学院篇！　2時間目！』</p>
+<p><img src="../../../../res/imgs/article/chapter999/if/15-4.png" alt="" /></p>
+<p>「虽然浪费了不少时间，但是正因为这样，我才要带艾米莉娅去镇上。拉姆和雷姆好像也很忙，差不多该走了」</p>
+<p>「是啊。虽然很可惜……」</p>
+<p>「——啊，这样啊。该和帕克酱分别了，真遗憾」</p>
+<p>眉头微微皱起，对于打算离开的我们雷姆很是遗憾。</p>
+<p>拉姆也是，我也是不忍心看到雷姆这副表情。那么，该怎么办呢？我还没想到解决方案 「真没办法啊」拉姆垂下了肩膀。</p>
+<p>「雷姆，就和巴鲁斯他们一起去吧。拉姆一个人也没关系」</p>
+<p>「啊……但是，这对姐姐大人可不好。明明还有这么多行李……」</p>
+<p>「这是雷姆为拉姆准备的东西。一个也会不浪费，也不会成为负担。——那是因为，这里的奥托也可以帮忙拿」</p>
+<p>「诶！？」</p>
+<p>温柔地抚摸着吃惊的雷姆的脸颊，说着这话的拉姆指向了路的前方。然后，从那边过来的，正是穿着运动衫的一脸震惊的奥托。</p>
+<p>看来，奥托好像也在早上跑步，突然被指名，用不知所云的样子瞪着眼睛</p>
+<p>「那个，我是突然被卷入了什么事情呢？」也就是说，为什么不是运动部的各位在这个时间会参加堤坝的慢跑呢？」</p>
+<p>「别在意细节，奥托。那行李就交给你了」</p>
+<p>「啊！？」</p>
+<p>「谢谢，奥托。为了不让姐姐身体着凉，请定期给她喝热茶。请多关照」</p>
+<p>「等一下！？」</p>
+<p>「虽然不太清楚，但是奥托君很可靠呢。我觉得那是非常棒的事情，加油！」</p>
+<p>「连转校生都有！？」</p>
+<p>对于慌慌张张的奥托，我们没有说明就一个接一个地离开了。</p>
+<p>不好意思，奥托。你是诞生在那样的星球上的男人。姐姐大人的对手虽然很辛苦，但这也是你的错。。</p>
+<p>「不管怎么说，这也太不讲理了吧！？」</p>
+<p>「不要老是吵吵嚷嚷，快点准备吧。男人家叽叽歪歪的叫嚷……这已经哒咩了吧」</p>
+<p>「明明是你叫我帮忙的！？」</p>
+<p>在背后，显示了欺凌方和受虐方的绝对力量之差。</p>
+<p>只是抵抗是没用的，所以奥托也应该放弃接受命运。即使那样——，</p>
+<p>「明明是足球部的王牌，被那样对待的家伙应该很少吧……」</p>
+<p>另外，奥托可不是外援，而是纯粹作为足球部的王牌前锋。但需要补充的是，他完全没有那种实力。</p>
+<p>「话虽如此，这么早还意外地遇到了熟人……」</p>
+<p>「这么一想，平时不起床的早晨时间就好像宝箱一样呢。我居然也会有早起真好的心情呢，真是开心」</p>
+<p>「艾米莉娅很积极呢。我觉得雷姆也很好」</p>
+<p>「喵」</p>
+<p>把拉姆那孩子扔给了奥托，我们三个人和一只猫重新开始散步。</p>
+<p>这是和络绎不绝的人们打着招呼、享受共有早晨清爽时间的喜悦之情。</p>
+<p>幸运的是，艾米莉娅好像是不认生的类型，这样的话说不定，和角色的味道很浓的雷姆也能很好地相处着。为维持这两个人的关系做出贡献的是，两个人之间被挤得乱七八糟的帕克。</p>
+<p>「好可爱……帕克有多大了？」</p>
+<p>「呃……我不太明白那个。帕克，等我在意到的时候，一直在我身边……我觉得已经有十年以上了」</p>
+<p>「说到猫的十岁，感觉是个很不错的老人家啊」</p>
+<p>「嘛，虽然我能理解你想换算成人类年龄的心情，但是我觉得我是一种猫妖，所以我采取不公布年龄的方针」</p>
+<p>「我不这么认为」</p>
+<p>那样轻松地表现出猫妖的感觉也很不好办。</p>
+<p>话虽如此，只有我能听懂它说的话，真的有猫妖的疑惑啊……或者说，是我变得奇怪了吗？</p>
+<p>「每天早上，吃了贝亚子的臀部攻击后，新的力量觉醒了吗……。最近，被卡车轧了转世后获得力量的话就另当别论了，在持续受到妹妹的臀击时就开始觉醒了，似乎在新事物出现以前都不会接受崭新的事物」</p>
+<p>于是，为了哥哥的觉醒，为了争夺贝亚子的屁股，人们开始了以血来洗血的争纷。</p>
+<p>「太棒了，贝亚子的屁股，贝亚子的屁股裂成了两半……！」</p>
+<p>「总觉得昴在说些奇怪的话……」</p>
+<p>「请放心。昴君，一想到妹妹贝亚托丽斯时就浮想联翩。但是，我觉得想念妹妹这一点也是昴君很棒的地方。因为要好好珍惜妹妹」</p>
+<p>「不，所以不会对其他地方的妹妹也发挥哥哥的个性。和那种东西无关，雷姆很重要」</p>
+<p>「这样啊，一辈子都这么珍惜，真不好意思……」</p>
+<p>「没说，没说」</p>
+<p>雷姆红着脸浮想联翩了，所以我按照往常的样子挥了挥手。</p>
+<p>一边说着这样的话，一边又与一组和擦肩而过的带着狗的饲主打招呼的时候。——发现那只狗的主人长着张熟悉的脸。</p>
+<p>「啊，这不是菲鲁特和莱因哈鲁特吗。在干什么呢？」</p>
+<p><img src="../../../../res/imgs/article/chapter999/if/15-5.png" alt="" /></p>
+<p>「……可恶，被看到了」</p>
+<p>可恶什么的，还真是过分的回应方式，但是这个被我叫住后从心底里露出厌恶的表情的人，是同班的灰姑娘女孩菲鲁特。</p>
+<p>顺带一提，这并不是说偶像或者是想成为偶像的意思，菲鲁特被当做是灰姑娘女孩的原因，是因为被王子盯上了。</p>
+<p>那位王子指的就是站在那里，皱起眉头的菲鲁特旁边的美青年——莱因哈鲁特・范 ・ 阿斯特雷亚。</p>
+<p>莱因哈鲁特不仅在校内，在市内或县内也是屈指可数的美型，是文武双全的完美超人，但不知什么原因他对菲鲁特非常执着。对于莱因哈鲁特的猛烈进攻，明明平时是发自内心的讨厌的菲鲁特——</p>
+<p>「这么早就在幽会。难道说，至今为止在学校的行为都是伪装……」</p>
+<p>「噗！才不是啊！就是因为感觉会被这么说，我才不想说出来啊！我会这样做，是为了罗密！」</p>
+<p>「罗密是……」</p>
+<p>瞥了一眼，只见菲鲁特手上中握着的红绳牵着的狗汪了一声。</p>
+<p>它是一只相当大的狗，有着能把娇小的菲鲁特拽着走的力气的样子，但变成那样的话莱因哈鲁特应该能好好地制服住。</p>
+<p>话说回来，这只狗和莱因哈鲁特有什么关系？</p>
+<p>「早上好。你们两人也是同班同学吧。莱因哈鲁特，还有和他关系很好的菲鲁特酱……」</p>
+<p>「关系才不好啊。怎么回事啊？转校生竟然是这么看待的吗。啊啊，可恶啊，别开玩笑了」</p>
+<p>胡乱的抓着头发，菲鲁特对艾米莉娅的发言感到很生气。</p>
+<p>艾米莉娅对于菲鲁特的过度反应也很吃惊，但莱因哈鲁特对这样的态度「抱歉了」地苦笑道。</p>
+<p>「不好意思让你受惊了。看起来今天早上的菲鲁特好像也有点生气。虽然和我在一起时总是这种状态，但是平时是更加温柔的孩子。如果你能不误解的话我会很开心的」</p>
+<p>「你丫的是我的老妈子吗！？你是从哪只眼睛看见的才会这样说的啊！」</p>
+<p>「嗯，明白了。没关系的。这点我可是很清楚的。因为，被狗狗这样亲近着呢」</p>
+<p>无视了在中间的菲鲁特的叫喊，艾米莉娅指着贴在菲鲁特脚边的罗密微笑着。</p>
+<p>实际上，菲鲁特虽然嘴上不饶人，却很会照顾人，而且和可爱的外表相反，气质很好也颇具男子气概的感觉，所以意外地在男性中人气很高。不过，大多数男性如果知道了莱因哈鲁特进入了竞争对手的范围，就会早早地撤退。</p>
+<p>就像在用猜拳向核弹挑战一样。也就是说，毫无意义。</p>
+<p>「但是，罗密酱和你们两位是什么关系啊？」</p>
+<p>「原本，罗密就是一只弃犬。捡到这个孩子的时候，我和菲鲁特正在一起回去的路上……犹豫着该怎么办。在那个时候」</p>
+<p>「……我家的话，没有能养罗密的余裕。这样就只能由这家伙来代养了吧。然后，要是放任不管了的话也很奇怪吧」</p>
+<p>「所以，就像这样早上带着罗密去散步，休息日的话就和它在外面玩，这样做的话菲鲁特也会明白责任的」</p>
+<p>「喔……」</p>
+<p>原来如此，两人一起发现的弃犬由莱因哈鲁特捡回家，菲鲁特也在帮忙照顾它。然后，就在早上散步的时候和我们相遇了。</p>
+<p>听了这些，真是一个让人忍不住微笑的插曲呢，但是——</p>
+<p>「菲鲁特，感觉你的护城河要被完全填上了……」</p>
+<p>「别说了。我也隐约察觉到了……」</p>
+<p>目前，对于莱因哈鲁特的热情追求，菲鲁特虽然一直粗暴地拒绝着，但也有单纯的接触效果，所以渐渐有种无法拒绝了的感觉，从旁观者的角度也能看出来。</p>
+<p>就这样陷入崩溃也是时间的问题了，我觉得已经进入了倒计时阶段。</p>
+<p>「最近，因为菲鲁特在我家露面了，婆婆也因为觉得茶点做的有价值而感到开心啊。因为你的感想很坦率不会表里不一」</p>
+<p>「就算是我，难吃的东西也会说难吃的。只对老奶奶说好吃的感想，是因为老奶奶做的东西确实太好吃了啊……真的是，你家那儿，要是你不在的话，不管多久我都想待下去啊」</p>
+<p>「这就有点，不知道怎么回应了呢」</p>
+<p>虽然菲鲁特深切地抱怨着，这样就算是莱因哈鲁特也只能做出苦笑的反应了。</p>
+<p>在我看来是非常过分的话，但莱因哈鲁特也没什么反应的样子，是钢之心的持有者呢。明明莱因哈鲁特这样的人应该不习惯被拒绝才对。</p>
+<p>「不管是怎么样的反应，只要一想到是从菲鲁特那里得到的回应就觉得意外的开心。我也，不知道自己有这样的一面，自己也感到惊讶了」</p>
+<p>「嘛，恋爱就是盲目的，在至今为止走过的道路上，试着闭上眼睛走的话，会得到不同感觉这不是很自然的吗？」</p>
+<p>「——。原来如此，真是有趣的意见。我会采纳的」</p>
+<p>虽然这是一句随便想到的台词，但莫名被人钦佩了，就有一种自己说了很好的台词的感觉，真是不可思议。</p>
+<p>「总之！我只是为了罗密，实在没办法才和这家伙一起的。这点可不能误会了。还有，不许在学校里说！」</p>
+<p>「知道了，知道了。我会守口如瓶的」</p>
+<p>「再顺便说一句，发短信和LINE说也一样是不行的！」</p>
+<p>「切，没法钻空子啊。」</p>
+<p>在菲鲁特的叮嘱下，我不由得拿出了藏在背后的手机。本来打算偷偷地和班里的同学共享的，但这样就没办法了。</p>
+<p>「那么，待会在学校见。」</p>
+<p>「不许说出去！」</p>
+<p>于是就这样和挥手致歉的莱因哈鲁特，以及疑虑重重的菲鲁特分别了。</p>
+<p>按照这个架势，距莱因哈鲁特的努力取得成果的日子已经不远了</p>
+<p>「感到了一抹寂寞是为什么呢……」</p>
+<p>「就像是，朋友被女孩子抢走了那样的感觉吗？」</p>
+<p>「不如说是因为，菲鲁特桑能从莱因哈鲁特桑的攻势中逃多久的这个赌，昴君要输了吧」</p>
+<p>「雷姆五分」</p>
+<p>「记下了！我会写下来的」</p>
+<p>「诶！什么，太狡猾了！」</p>
+<p>看着雷姆匆匆忙忙忙地在记事本上写下什么，艾米莉娅慌了手脚，只是随口一提，没什么特别的含义。</p>
+<p>即使记下了也没什么意义，况且从没人记这个。</p>
+<p>「这样的话，昴君的积分总计超过了二十万分。好成就感呢」</p>
+<p>「积累了那么多分！？」</p>
+<p>「哇，好有年代感的记事本……这个累积起来后会怎么样？」</p>
+<p>「我不知道。但是，万一有天，昴君会给我积攒的积分带来惊喜呢？雷姆正忐忑的等待着」</p>
+<p>「压力山大。希望你能在再得一百分时或我还能补救时告诉我」</p>
+<p>整整二十万分……就算是玩了游戏每次五分，也得打四万次才能达到呢，但这是从多久前开始计量的呢。</p>
+<p>然后，我要做什么才能回报二十万分呢？</p>
+<p>「消费十分，摸摸头怎么样？」</p>
+<p>「那么，你可以抚摸我的头两万次呢。」</p>
+<p>「脑袋会掉下来的！」</p>
+<p>因为不能信口开河，所以我答应雷姆下次制作积分对应表，还请雷姆原谅我。但是，以我为标准的话，到底让我做什么分数会提高呢，有点判断不来。</p>
+<p>「比如说，如果是艾米莉娅的话，你想让我做什么？」</p>
+<p>「我？嗯，是啊……啊，要是能像今天一样一起散步的话，我就会很开心。我觉得那真是非常惬意。清晨早起也没那么辛苦了」</p>
+<p>「Ｅ・Ｍ・Ｔ……」</p>
+<p>「啊？现在突然怎么了？」</p>
+<p>「我不知道。突然就有热气腾腾的话语从嘴唇上喷薄而出了」</p>
+<p>大概，我是想说艾米莉娅真是天使。</p>
+<p>但是，虽然没有什么参考价值，但是能得到这样的评价，作为这个年龄段的男生还是非常开心的。</p>
+<p>「顺便问问，雷姆感觉早晨散步怎么样？」</p>
+<p>「非常开心。但是，观赏早晨睡觉的昴君的睡颜也是雷姆给予的青梅竹马特权，所以天平很难倾斜」</p>
+<p>「那个青梅竹马的特权是谁给的？神？」</p>
+<p>「是神明」</p>
+<p>「是吗……」</p>
+<p>既然是神赐予的那就没办法了，那种魄力让人望而却步。</p>
+<p>以这种感觉走着，远处一点点迎面扑来的是堤坝上樱花树的富丽景色——恰逢樱花盛开，绽放的桃色景光让人赏心悦目。</p>
+<p>「哇……」</p>
+<p>「怎么样？有点意思吧。这一带以樱花名胜而闻名，一提到赏花，人们就蜂拥而来」</p>
+<p>「樱花庙会也在周末，如果可以的话一起去吧。」</p>
+<p>「可以吗？」</p>
+<p>稀稀拉拉……我望着为庙会所准备的摊位支撑架等，被雷姆邀请的艾米莉娅露出了吃惊的表情。</p>
+<p>对于这样的艾米莉娅的反应，我和雷姆相顾一视，同时点了点头。</p>
+<p>「当然」</p>
+<p>「有什么不好吗？啊，和谁约好了之类的……」</p>
+<p>「嗯，不，不是那样的。只是，我刚转学过来，两个人……虽然不只是两个人，但是大家都很棒，真是不可思议」</p>
+<p>结结巴巴、艾米莉娅的话带着微妙的困惑。</p>
+<p>即使听到了艾米莉娅的回答，我也不太能理解。我并不认为自己有做多好，如果是同班同学，这不是平常吗。</p>
+<p>再加上美少女那更不必提了。</p>
+<p>「这不是很稀松平常的事吗。呐，雷姆」</p>
+<p>「那个，能坦然处理平常事的昴君也很棒，雷姆很钦佩」</p>
+<p>「明明是很平常的事情！？」</p>
+<p>「噗」</p>
+<p>雷姆的反应如听到段子一样，突然对艾米莉娅忍俊不禁。就这样，她笑得前仰后合， 「不行，要笑死了……」地说着。</p>
+<p>「……嗯，我明白了，让我依赖两位的温柔。庙会，一起去吧」</p>
+<p>「必须滴！」</p>
+<p>对于艾米莉娅的回答，我打了个响指，快活地叫喊道。</p>
+<p>『早起的鸟儿有虫吃』——如果有这般好处，早起也是值得的。</p>
+<p>这采用的是意译的思路。</p>
+<p>原文中，昴说的是「たまの早起き、三文の徳」，如果要直译，便是早起得三文的意思。</p>
+<p>这个「三文の徳」可大有来头。</p>
+<p>三文之德的说法据传源于古时的日本奈良，奈良的鹿是著名珍兽，深受人们喜爱。在那时如果有人杀死奈良的鹿就会被处死刑，后来因刑罚太过于严重也因鹿到后来实在繁育太多了，所以难免出现意外致鹿死亡的情况。</p>
+<p>于是将刑罚改成罚款三文，然而死鹿只要在一户人家门口的话就算这户人杀的，于是为避免罚金奈良的人们每早起床都先出门检查门口有没有死鹿，如有就把死鹿抬到还没睡醒的人的家门口，于是就成了起得最晚的那户人要交三文罚金，久而久之就有了早起得三文一说。</p>
+<p>虽然这条法律湮灭于历史的长河之中了，但是这个俗语却流传了下来，拿我国的说法便是「早起的鸟儿有虫吃」。</p>
+<p>值得一提的是奈良人对鹿的喜爱可一点都没改变，直到现在奈良都还是有很多鹿。</p>
+<p>多亏早起，我和艾米莉娅好约了一起去庙会。</p>
+<p>因此，今早总结来说，偶尔早起也蛮不错的。</p>
+<p>话虽如此……</p>
+<p>「这个班上，几乎没人不去参加周末的庙会吧」</p>
+<p>「因为喜欢祭典的人都聚集在了一块儿。就没有不碰面的。当然，妾身也正打算制霸这些铺面」</p>
+<p>「虽然公主是这么说的，但是作为陪同就受不了。我先说一声，作为一把年纪的大叔，肠胃可没法年轻人相提并论」</p>
+<p>一边这样说着，一边用左手的高性能义肢喀嚓喀嚓作响的是阿尔先生。</p>
+<p>露格尼卡学园理事长的孙女普莉希拉经常这样带着阿尔到学校。另外，阿尔不仅有一只手是义肢，而且还是一个每天用各种各样的布来遮住脖子以上的谜一样的人物。</p>
+<p>嘛，说起来，也是一位普通的对人生感到疲惫的中年大叔，这种反差也是有趣的要素之一。</p>
+<p>「话虽如此，从大清早开始就是青春洋溢，真是令人羡慕啊。可爱的青梅竹马和美少女转校生……如果在我的学生时代，能在满是漂亮姑娘的班级里，或许也能更加青春吧」</p>
+<p>「嘛，我能理解你的心情。我也是，在习惯这个班的美丽率之前，每天都有犯点小错就身败名裂的感觉」</p>
+<p>「你在开什么玩笑？凭妾身一个人的眩目程度就足以把你们闪成灰烬。干脆现在直接化为灰烬也没关系。诶？」</p>
+<p>「我才不管呢」</p>
+<p>普莉希拉挥舞着看起来很昂贵的扇子，我对说着夸张话的她做了鬼脸。</p>
+<p>顺带一提，对我们班美少女率的提高做出巨大贡献的其中一人就是普莉希拉，所以无论如何都很难反驳她的主张。对美少女说她不是美少女，我也不是输不起的弱者。</p>
+<p>——早上的散步也结束了，回到家后换上制服去学校了。</p>
+<p>如此说来，虽然只是早晨的一幕，但是如果比平时更早一点去上学的话，就和早上散步一样，会有很多新发现。</p>
+<p>比如，像这样和普莉希拉和阿尔交谈也是其中之一。</p>
+<p>「但是，没想到普莉希拉会在这个时间上学。」</p>
+<p>「这次公主在今儿天真是意外地早起呢。倒不如说，连作为陪同的我都在早上人间再造了。深夜动画都没看呢」</p>
+<p>「但是，现在信息网络已经相当丰富了。我有在看哦，《异世界沃特德（異世界ウォンテッド）》」</p>
+<p>《异世界沃特德（異世界ウォンテッド）》是一部将各种各样的不同异世界动漫混合的动画作品。因为是不同作者的作品联动，我想负责任的导演都快拼了命了。我想借这个机会好好称赞他的努力。</p>
+<p>不管怎么说——</p>
+<p>「周末的樱花庙会……这难道不是和艾米莉娅的正式约会吗？」</p>
+<p>「哦，约会啊」</p>
+<p>「男生和女生齐心协力，去参加某个活动……如果这都不是约会的话，还能是什么呢！即使这是团体交往的结果，根据早上的一件事来判断的话这肯定是约会！这是熊熊燃烧的……！」</p>
+<p>「怎么说呢，真是卑鄙的样子啊。首先，你和那个双胞胎姐妹的妹妹一起出去玩过吧。有了那样的经验，如今还要摆出这幅架子吗？」</p>
+<p>总觉得，这种好像是在和普莉希拉商量约会的情况很搞笑，但是，普莉希拉提到的完全没有参考价值。</p>
+<p>「我告诉你，对于我来说雷姆是从幼儿园开始就一直在一起的青梅竹马对吧？说实话，光是单纯的出门就不计其数，这反而没有参考价值了」</p>
+<p>「虽然我也听过你那些目中无人的发言，但这才第一次认真地思考约会的事。这未免太天真了吧」</p>
+<p>「诶诶，对吧？我现在觉得由于紧张，有酸酸的东西要从胃里涌出来了」</p>
+<p>「你这家伙，即使在妾身面前犯蠢也不要让它溢出来啊」啪的一声合上扇子，普莉希拉用扇子前端轻轻地抬起我的下巴。虽然现在我下巴的状态是会遭人笑话的，但这家伙一动手就会变成这个样子。</p>
+<p>「拼命地努力吧。无论在哪个时代，女人都喜欢男人为了取悦自己而进行恶战苦斗。如果没什么特别的事，作为对象的女性也不会感到不悦」</p>
+<p>「喜欢恶战苦斗，真是种恶女的价值观……难不成，你是在给我加油？」</p>
+<p>倘若如此，真是遇到了意料之外的稀有情况，真是吓了我一跳。</p>
+<p>但是，一听到我的那句话，普莉希拉红瞳的温度就下降了。不好意思，我对自己的失言感到道歉——</p>
+<p>「啥啥？刚才你是在说庙会的事吗？」</p>
+<p>「……女狐吗？」</p>
+<p>突然插入话题的，是今天依旧操着口气势满满的关西腔的美少女安娜塔西娅。</p>
+<p>由于安娜塔西娅的闯入，普莉希拉不愉地皱起了眉头。</p>
+<p>这俩人的水火不容在学校都很有名，被认为是尽可能不要混在一起的危险。然而，尽管如此，还是会频繁地发生冲突。其原因，难道不是把这俩人放在同一个班级的教师们在人才配置上错误吗？</p>
+<p>「怎么可能，这是逃避现实的时候吗。怎么回事，安娜塔西娅。如果是平时的话，和普莉希拉说话时是不会被打断的」</p>
+<p>「不，人家在平时是这么做的吧？但是，一提到庙会相关的话题就不能错过了吧？我们商会开了很多分店，事先调查顾客对市场营销也有很用的」</p>
+<p>边眨眼边回答的安纳斯塔西亚——她所说的商工会是指在这一带将个体经营店集中起来的工会。</p>
+<p>最喜欢做生意、算帐的安娜塔西娅出入于那个商会，一边和大人们混在一起，一边为了地区的复兴而披星戴月四处奔走。这种嗅觉似乎非同一般，近年来，在稳步而顺利地取得成果的活跃商会背后，似乎隐藏着由安娜塔西娅的精心谋划的取胜之道。</p>
+<p>当然——</p>
+<p>「这究竟是真是假、令人生疑……」</p>
+<p>「――哦？那道视线。你有什么想对我说吗？」</p>
+<p>受到我的视线，这样闭上一只眼睛的，是和安娜塔西娅优雅地站在一起的尤里乌斯。另外，之前关于安娜塔西娅的情报是从尤里乌斯那里听说的，对这个可爱守财奴给予高度评价的家伙会附上何种的赞美是一个谜。</p>
+<p>「最近年轻人来参加庙会的机会逐渐减少了，对于这边做各种各样事情的人来说是很辛苦的。所以，如果有什么创意的话，什么都欢迎。这也许会对古怪的公主有所帮助呢？」</p>
+<p>「还是老样子，缺乏教养的女狐啊。就这？是求人的态度吗？如果想听妾身的话，就从摇尾乞求开始吧。只有这样，妾身才会决定要不要答应你的请求」</p>
+<p>「啊，欸，要是不想说也没啥。莫非人家的本命是菜月君吗？公主的意见真是让底下人难以琢磨，怕是派不上用场啊」</p>
+<p>「将自己低下理解力漠然置之，贬低自己作为人最为珍贵的东西，实在令人佩服。那种卑微真是到了令人瞠目结舌的程度。毕竟太小了，不仔细瞧是瞧不见的」</p>
+<p>互相交换了强烈的嫌弃感，结果最终战争爆发了。</p>
+<p>明明这次刚开始的时候感觉还不错，可是为什么会变成这样呢？</p>
+<p>「嗯，是个谜。说道谜的话，明明知道会变成吵架却不加以阻止的你也是个谜」</p>
+<p>「嗯，是啊。这是我个人的看法，但安娜并不是讨厌普莉希拉。只是相性不合罢了。那个能力我是认可的，从某种意义上来说就好像我是认可你一样」</p>
+<p>「某种意义上是个啥。管你什么意义啊，**」</p>
+<p>由于完全没有合适的接受方法，所以我也自然地摆出了战斗的架势。说到底，我和尤里乌斯就是两条不相交的线。居然会想认真听他讲话，真是个笨蛋。</p>
+<p>「哎呀呀，这样的话我也笑不了安娜了。」</p>
+<p>「你是在擅自认同什么啊……哦，学生会的双雄。两位周末的节日打算怎么过？」</p>
+<p>无视了耸着肩膀露出微笑的最优男生，我转向了身后——向坐在椅子上谈笑的库珥修和菲利斯打了打招呼。</p>
+<p>听到了我的呼唤，「我们吗？」库珥修用手托着下巴说。</p>
+<p>「当然是参加庙会……首先，作为学生会长，有监督学校学子是否过于放纵的义务。所以，我不太想玩乐嬉戏」</p>
+<p>「唉～那样可就太寂寞了。好不容易才有的庙会喵，就算是性急，也应该穿浴衣好好打扮一下喵～」</p>
+<p>「嗯，是啊。确实，在盛开的樱花树荫道下，穿着和平时一样的打扮闲庭信步，不觉有别样的新鲜感吗？而且，我也想看在樱花树下精心打扮的菲利斯。同感」</p>
+<p>「嗯。那么，我也给准备好了库珥修大人的衣服喵」</p>
+<p>虽然库珥修总是娇惯着爱撒娇的菲利斯，不过嘛，因为那里是那种莫名其妙的关系，所以和往常一样打情骂俏也毫无违和感。</p>
+<p>结果，班上过半数的学生几乎都参加了。</p>
+<p>「我们家的话，贝亚子……嘛，佩特拉酱和梅莉酱会照顾她吗？即使不是那样，我还是非常担心被夺走了贝亚子的老爸」</p>
+<p>「――哦？不是先想妹妹，而是更担心爸爸吗？」</p>
+<p>在我吐露内心想法的时候，完成了办公室任务的艾米莉娅过来了。对于这个问题，「是啊」</p>
+<p>我点头回答。</p>
+<p>「我们家的爹妈……特别是老爸完全没法离开孩子。因为他总是想要束缚住贝亚子，导致我不能独占她，这可真不得了」</p>
+<p>「是啊……咦？难不成现在昴也想独占贝亚子吗？」</p>
+<p>「――哦？那是因为，贝亚子就是我的贝亚子啊……」</p>
+<p>如果可以的话简直一刻也不愿分离，甚至想把她装进包里带着走，但是最近的贝亚托丽丝已经不能装进包里了，因为建立了自己的人际网，所以不能再束缚到那种程度了。但我还是希望能偶尔独占。</p>
+<p>「啊，是寂寞的哥哥心啊」</p>
+<p>「这样啊……姑且，稍微能理解你的些许心情了」</p>
+<p>「诶！艾米莉娅碳也想吃掉贝亚子吗！？」</p>
+<p>「你居然是想吃吗！？」</p>
+<p>如果是被当面吐槽的话，我也不知道自己究竟是想怎么对待贝亚子。</p>
+<p>我听说养猫的饲主因为太爱猫了而不知道怎么表达感情，大概和我这情况很接近吧。</p>
+<p>「那么，你说说你所理解的心情是？」</p>
+<p>「那个，说道离不开孩子的人。其实我的父母也非常重视我……那个，真是辛苦啊」</p>
+<p>「啊，那真糟糕啊」</p>
+<p>「今天早上，我和昴以及大家分道扬镳回到家后，和他说起了散步时发生的事情，很不得了啊。「下次，会带那个昴君来吗？德斯！」他说」</p>
+<p>「德斯！是吗？」</p>
+<p>总觉得，真是个语气相当有气势的家长啊。但是，这样说着的艾米莉娅的表情却柔和，大概她家的关系其乐融融。</p>
+<p>我们家也是这样，但虽然家人间关系好虽是件好事。可有时又觉得有很马大哈的感觉，也有时会在好好敲门后再进房间，还算是好事。</p>
+<p>「基本上，我对自己家的不满，全部都源自于老爸啊……」</p>
+<p>「啊，对了对了。这么说来，刚才去办公室的时候，总觉得法兰黛莉卡老师匆匆忙忙的，好像是发生什么事了」</p>
+<p>「诶，什么嘛。德里面卡老师，她老是忙忙碌碌的」</p>
+<p>主要是因为她负责满是问题儿童的班级，努力工作又热心的法兰黛莉卡老师，像往年的学校电视剧一样奋斗，为解决问题而奔走。</p>
+<p>有时，柯林特老师也会鼓励我，这也是我们的约定。</p>
+<p>「但昨天的艾米莉娅碳的转入也好，真是活动不断啊」</p>
+<p>「但是，这是多么奢侈的事啊。每天都有很多开心的事」</p>
+<p>「艾米莉娅碳是寻找幸福的名人呢」</p>
+<p>「是吗？啊，谢谢」</p>
+<p>正这样说着，上课铃声响了。</p>
+<p>慌慌张张的，教室里的所有人都开始回到了自己的座位上，其他班级的和迟到的人也一样回到了座位上。</p>
+<p>今天也一样是全员集合，出席率万全的我们的班级——</p>
+<p>「欸？总觉得窗边好像多了一个座位……」</p>
+<p>「——嗯，嗯，大家都到齐了呢」</p>
+<p>我的疑问还没说完，法兰黛莉卡老师就打开门出现了。</p>
+<p>今天的法兰黛莉卡老师依旧是挺拔的身姿，站姿优美，但是感觉心情和语气中混杂着些许疲惫。</p>
+<p>「德丽卡老师，发生甚么事了吗？你看起来没精打采的」</p>
+<p>「……菜月君很细心呢。不过，我还是想好好遮掩一下，所以做了很多努力哟？」</p>
+<p>「在讲台前，因为法兰黛莉卡老师是位大美女所以经常看脸，不是吗？」</p>
+<p>「――――」</p>
+<p>认真回答后，法兰黛莉卡老师眯着翠绿的眼睛一言不发。我无法洞察那个反应的意图，悄悄地向右边的雷姆打招呼。</p>
+<p>「雷姆，雷姆，我有说什么奇怪的话吗？」</p>
+<p>「不，我想并没什么特别的。和往常一样，是非常棒的昴君」</p>
+<p>「问题不就出在和往常一样吗？」</p>
+<p>明明没有征求意见，却被我左边的那家伙吐槽，真烦人。</p>
+<p>不管怎样——</p>
+<p>「课本。总之，我们会继续讲下去的。昨天，艾米莉娅同学转入了这个班级，其实今天也有话要和大家说」</p>
+<p>「喂喂，这是哪门子情况。莫非，新角色的加入——」</p>
+<p>我觉得不管怎样，插话都是不合时宜的，或者说是毫无节操，总之趁势说说看。</p>
+<p>然而，听了我的话，法兰黛莉卡老师深深地叹了一口气。</p>
+<p>然后——</p>
+<p>「――真是万万没想到。的确如此，菜月君」</p>
+<p>「啊，那个声音……」</p>
+<p>这声音让我虎躯一震，教室前门开了，出现了一个人影，看到她缓缓走来的身影，我愣住了。</p>
+<p>全身从上至下穿着黑色丧服，奇妙地散着颓废与香气的美貌。长发如色素脱落一般纯白，蝴蝶样式的发饰非常引人注目。</p>
+<p><img src="../../../../res/imgs/article/chapter999/if/15-6.png" alt="" /></p>
+<p>「临江仙・又遇艾姬多娜」</p>
+<p>熟声盈耳诧异惊，欲探头影朦胧，颓靡馥郁缠墨缞，俯仰生姿悠然来。</p>
+<p>凌波微步芸橘进，玉鬓霜丝如云，似色脱兮空余雪，修姱钿蝶人瞩目。</p>
+<p>听到一个声音，在突然中</p>
+<p>听到一个声音，在惊讶中</p>
+<p>听到一个声音，在错愕中</p>
+<p>教室的前门开了，门扉中隐约有一个影子</p>
+<p>是一个模糊的意象在缓缓走来，是她的身姿在缓缓走来</p>
+<p>我愣住了</p>
+<p>全身上下穿着宛如黑色丧服的衣装</p>
+<p>举手投足间气质非凡</p>
+<p>美貌中充盈着奇妙</p>
+<p>美貌中散发着颓靡</p>
+<p>美貌中萦绕着香气</p>
+<p>長い髪は色素が抜け落ちた純白で</p>
+<p>婆娑长发彰显着洁白</p>
+<p>洁白中空余寂寥</p>
+<p>寂寥得好似连色素都被剥离</p>
+<p>剥离了颜色的发丝是那样美丽</p>
+<p>美丽的蝴蝶样式的发饰也恰如其分</p>
+<p>恰如其分地引人注目</p>
+<p>这个也是，意想不到的漂亮女性的登场——，</p>
+<p>「艾姬多娜？这不就是住在我家隔壁的、六姐妹中排名老三的、艾姬多娜吗！」</p>
+<p>「谢谢你说明性的台词。正如菜月君介绍的那样，我的名字叫艾姬多娜——从今天开始，请让我在这所学校担当实习教师」</p>
+<p>「啥，是实习教师——！？」</p>
+<p>淡淡的微笑，在讲台上鞠了一个躬的艾姬多娜让我们激动不已。</p>
+<p>实习教师——相较于同级生和班主任老师有着微妙的不同的距离感和立场，是为校园生活增添色彩的罕见身份。</p>
+<p>为了取得教师资格而进行的实习，也就是说实习教师不是老师而是学生，与平时不怎么接触的女性邂逅，高中生男生无法掩饰自己的不知所措。「呃，万万没想到你居然藏了一手……前几天咱俩喝茶的时候可完全没有提到过啊」</p>
+<p>「我想让菜月君大吃一惊。而且，如果向你坦白的话，也有可能会被其他学生知道。当然，最重要的目的是想看到你惊讶的表情……吓了一跳吧？」</p>
+<p>「嘛，那倒是很吃惊……」</p>
+<p>艾姬多娜恶作剧般地笑着，我害羞地挠了挠脸颊。</p>
+<p>距艾姬多娜六姐妹们搬到我家隔壁还不到一年，这位年长的女性似乎很喜欢故意调戏小年轻，眼下，我就是被她可爱地恶意中伤的牺牲者。</p>
+<p>没想到会以这种形式被摆一道，我对她的设局瞠目结舌。</p>
+<p>「但是，昨天是艾米莉娅，今天是艾姬多娜……惊喜有趣的事件不是一个接一个地袭来吗？不愧是德丽卡老师，堪称艺人！」</p>
+<p>「请不要把我说得像个幕后主使一样。而且，其实事件并没有就此结束」</p>
+<p>「咦？」</p>
+<p>法兰黛莉卡老师摸了摸脑袋，我瞪大了眼睛，对她的话感到不知所云。</p>
+<p>搭嘎，这令人费解的答案不是法兰黛莉卡老师解答的，而是从正面袭来的。</p>
+<p>「――――」</p>
+<p>砰的一声，刚才艾姬多娜走过的门再一次被推开了。从那里突然出现的是比一个艾姬多娜更高的模糊轮廓。</p>
+<p>那是一位有着长长褐发、扎着马尾的高个子女性。身穿陌生制服的她，从讲台上走了过来，悠然自得地走了起来。</p>
+<p>——不知道怎么滴，就立在了我面前。</p>
+<p>「――――」</p>
+<p>「诶，那个？您是哪位？」</p>
+<p>在绿色的瞳孔中有着罕见的红色花纹，是位目光敏锐的美女。</p>
+<p>制服前只扣了一个扣子，毫不吝惜地露出了恶狠狠的视线与极具诱导力的身材。从制服的修改样式来看，能够与普莉希拉一争高下，丰满的身材也有完全不输普莉希拉，如此这样一来就能理解这是多么不同寻常了吧。</p>
+<p>但是，比起那种任性的伙伴（buddy），这种突如其来的猛攻对我来说更加棘手。</p>
+<p>怎么说呢，虽然不一定会突然跟我吵一架，但由于我刚刚看到过一个放学后做好了一对一决斗觉悟的美少女转校生的实例，所以不知道接下来会有何种魔幻展开。</p>
+<p>直到现在，从拉姆那里吃到扫堂腿的不安感还残留在膝盖上。</p>
+<p>我因为不安而身体僵硬，在我面前，那位美女的嘴唇动了。</p>
+<p>「——可算找到了」</p>
+<p>「咦？」</p>
+<p>「—师—父—大—人—！」</p>
+<p>「哇噗！？」</p>
+<p>严肃认真的表情一变，嘿嘿地笑着的美女从正面抱住了我。然后，把我的脸压在了那丰满的胸脯上，一个劲地搂着我。</p>
+<p>「终于终于终于，一直在期待重逢的时候了！虽然变成了这样，但是一眼就看出来了！师傅大人！师傅大人～」</p>
+<p>「要窒息惹！」</p>
+<p>「啊？听不清你在说什么。但是放心，没安全问题。不管师傅大人怎么垂头丧气，我都会一如既往地爱着你！」</p>
+<p>即使拼命挣扎美女也不肯放手。或者说，那手臂的力量非同寻常，要是再不挣脱这样下去会死的——死因乃胸器也！</p>
+<p>「——请等一下！你谁啊！请放开昴君！昴君会死的！」</p>
+<p>「嗯……」</p>
+<p>把我从那样的天堂地狱叠加态中救出来的是强行扯着我的手腕把美女剥下来的雷姆。雷姆紧紧抱住我的右臂，瞪着满脸不满的美女。</p>
+<p>「什么啊，你。不要妨碍我和师傅大人的再次见面」</p>
+<p>「你才是太突然了！昴君不是很可怜吗？你到底是……」</p>
+<p>「啊，是夏乌拉哦。和师傅大人是小时候相遇而后分开的，约定了再会的天降青梅定位哦！」</p>
+<p>「——吖！昴君的青梅竹马之位是雷姆的！」</p>
+<p>自己的地位突然被动摇了，愤怒的雷姆拉着我的右臂。但与之对抗的美人——自称「夏乌拉」的对手拉着我的左臂。</p>
+<p>「啊啊啊！！！」</p>
+<p>两位美少女都在争夺我，一瞬间我的两肩发出了悲鸣。</p>
+<p>一瞬间，我脑海中闪过大冈裁判这个词——爱着孩子的亲生父母和养育孩子的父母，互相争夺孩子的时候，为了孩子着想而放手的那一方才是真正的父母。</p>
+<p>也就是说，考虑我身体的人才是真正关心我的人——</p>
+<p>「呼，两个人都冷静下来！昴会裂开的，所以不能互相吸引！」</p>
+<p>「啊啊啊啊啊！！！」</p>
+<p>心地善良的艾米莉娅见不得我这样被争夺，为了阻止她们而参战。结果，我的右脚被艾米莉娅抓住，从三个方向来的引力把我扯得粉碎。</p>
+<p>然后，作为这种情况下的约定。</p>
+<p>「这样的话，我拿左脚是正解吧」</p>
+<p>「呃，那有什么正解，艾姬多娜，快救我……」</p>
+<p>「真不巧，手无缚鸡之力的我很难和她们对抗。但是，在对你的感情之深上，我没有丝毫逊色……真是有点害羞啊」</p>
+<p>「是说这话的场合吗……啊！」</p>
+<p>艾姬多娜脸颊微微泛红，但不幸的是，我对于她这种细微的心理变化完全没有顾及的余地。再这样下去，我会从四个方向裂开的。</p>
+<p>「加油，昴！现在，我来帮你！」</p>
+<p>「昴君的青梅竹马之位是雷姆的……！」</p>
+<p>「师傅大人！一定要实现和他离别时的约定……！」</p>
+<p>「至少，我想用到最后一刻都不放手来证明我对你的感情，怎么样？」</p>
+<p>我一边体验着右手右脚左手左脚、四肢被扭断般的疼痛，一边看着美少女们争夺着我的幸福的地狱画图。</p>
+<p>这简直就像是即将到来的匆忙校园生活的预兆——</p>
+<p>「嗯，是担任实习教师的艾姬多娜和连续两天的转校生夏乌拉。各位，为了让两个人快点融入班级，请好好相处哦」</p>
+<p>「——好！」</p>
+<p>法兰黛莉卡老师似乎什么都放弃了的话语，快活的同学们的齐声回答。</p>
+<p>总觉得那仿佛是发生在遥远世界的事，意识渐渐地向远方远去了。</p>
+<p>「喂，我，今后会变成什么样呢……？」</p>
+<p>「……虽然不太清楚，不过好像不会有好事吧」</p>
+<p>最后渐渐滑入模糊意识的，只有玩游戏好哥们奥托的一声牢骚。</p>
+<p>——我的校园生活，今后会变成什么样呢！</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../../../markdown/ch/chapter999/if/13.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../../../../markdown/ch/chapter999/if/15.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../../../markdown/ch/chapter999/if/13.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../../../../markdown/ch/chapter999/if/15.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../../../elasticlunr.min.js"></script>
+        <script src="../../../../mark.min.js"></script>
+        <script src="../../../../searcher.js"></script>
+
+        <script src="../../../../clipboard.min.js"></script>
+        <script src="../../../../highlight.js"></script>
+        <script src="../../../../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
