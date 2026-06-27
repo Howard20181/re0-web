@@ -20,3 +20,84 @@
     font-size: 18px;
     line-height: 1.75;
 }
+
+/* ── 3. 文章页尾打赏区 ─────────────────────────────────────────────────── */
+.donation-footer {
+    margin: 72px auto 24px;
+    padding-top: 28px;
+    border-top: 1px solid var(--table-border-color);
+    text-align: center;
+}
+
+.donation-footer__title {
+    margin: 0 0 8px;
+    color: var(--fg);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.donation-footer__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 64px;
+    min-height: 34px;
+    margin-bottom: 34px;
+    padding: 0 18px;
+    border-radius: 5px;
+    background: #f04438;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.donation-footer__button:hover {
+    background: #d92d20;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.donation-footer__grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 170px));
+    justify-content: center;
+    gap: 34px 56px;
+}
+
+.donation-footer__item {
+    margin: 0;
+}
+
+.donation-footer__image {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.donation-footer__label {
+    margin-top: 10px;
+    color: var(--fg);
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+@media (max-width: 760px) {
+    .donation-footer {
+        margin-top: 48px;
+    }
+
+    .donation-footer__grid {
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+        gap: 26px 22px;
+    }
+}
+
+@media print {
+    .donation-footer {
+        display: none;
+    }
+}
