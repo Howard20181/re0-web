@@ -47,7 +47,7 @@ def update_index(filepath) :
 
     readme_path = _README_PATH % (lang, chapter)
     tips = '（未润色）' if lang == 'ch' else ''
-    readme_idx = "- [%s　『%s』%s](%s.html)" % (id, title, tips, id)
+    readme_idx = "- [%s　『%s』%s](%s.md)" % (id, title, tips, id)
     update_readme(readme_path, readme_idx)
 
     summary_idx = "	* [%s　『%s』](markdown/%s/%s/%s.md)" % (id, title, lang, chapter, id)

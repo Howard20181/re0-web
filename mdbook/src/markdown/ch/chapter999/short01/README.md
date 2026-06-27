@@ -13,13 +13,13 @@
 能让喜欢艾米莉娅、雷姆与拉姆、以及普莉希拉的心情增加三倍喔！
 
 
-- [『从零开始的英雄史诗』](01.html)
-- [『女仆长无法放松休息的假日』](02.html)
-- [『放弃追随的那天』](03.html)
-- [『艾米莉娅梦游仙境』](04.html)
+- [『从零开始的英雄史诗』](01.md)
+- [『女仆长无法放松休息的假日』](02.md)
+- [『放弃追随的那天』](03.md)
+- [『艾米莉娅梦游仙境』](04.md)
 
 
-| <img width="500" src="/res/imgs/article/chapter999/short01/00.jpg" /> | <img width="500" src="/res/imgs/article/chapter999/short01/11.jpg" /> |
+| <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/00.jpg" /> | <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/11.jpg" /> |
 |:------:|:------:|
-| <img width="500" src="/res/imgs/article/chapter999/short01/12.jpg" /> | <img width="500" src="/res/imgs/article/chapter999/short01/13.jpg" /> |
-| <img width="500" src="/res/imgs/article/chapter999/short01/14.jpg" /> | <img width="500" src="/res/imgs/article/chapter999/short01/15.jpg" /> |
+| <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/12.jpg" /> | <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/13.jpg" /> |
+| <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/14.jpg" /> | <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/15.jpg" /> |

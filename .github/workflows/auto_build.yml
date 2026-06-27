@@ -46,7 +46,7 @@ jobs:
           CHANGED=$(git diff HEAD~1 --name-only)
           echo "Changed files:"
           echo "$CHANGED"
-          if echo "$CHANGED" | grep -qE "^(mdbook/src/(SUMMARY\.md|res/|markdown/ch/)|mdbook/book\.toml|bin/(build-mdbook|adapt-summary|fix-res-paths|gen-sitemap|gen-rss))"; then
+          if echo "$CHANGED" | grep -qE "^(mdbook/src/|mdbook/book\.toml|bin/(build-mdbook|adapt-summary|fix-res-paths|gen-sitemap|gen-rss))"; then
             echo "needs_rebuild=true" >> $GITHUB_OUTPUT
             echo "Key files changed: rebuild triggered."
           else

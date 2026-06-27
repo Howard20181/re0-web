@@ -17,7 +17,10 @@ if (-not $imageExists) {
     Write-Host "==> Using existing Docker image '$IMAGE'" -ForegroundColor Green
 }
 
-# ── 2. 启动预览服务 ────────────────────────────────────────────────────
+# ── 2. 清理上次生成的 book 输出目录（不清理 mdbook/src 源文件） ─────────
+cmd /c "rmdir /s /q mdbook\book 2>nul"
+
+# ── 3. 启动预览服务 ────────────────────────────────────────────────────
 Write-Host ""
 Write-Host "==> Starting mdBook preview (Ctrl+C to stop) ..." -ForegroundColor Cyan
 Write-Host "    Once ready, open: http://localhost:4000" -ForegroundColor Yellow

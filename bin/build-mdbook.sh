@@ -16,6 +16,9 @@ else
 fi
 SRC_DIR="mdbook/src"
 
+# GitHub Actions/Linux 可直接清理输出目录；Windows Docker 挂载卷失败时不阻断，交给本地 wrapper 清理。
+rm -rf mdbook/book 2>/dev/null || true
+
 # ── 1. 修复章节索引页的 .html 链接 ───────────────────────────
 # README.md 里的 (01.html) 链接需要改成 (01.md)，mdBook 才能正确解析
 echo "==> Fixing .html links in chapter README.md files..."

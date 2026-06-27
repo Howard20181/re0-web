@@ -14,20 +14,20 @@
 
 
 
-- [『对 Ｅ・Ｍ・Ｔ 献上情歌』](01.html)
-- [『RAM IS ORDER』](02.html)
-- [『OPERATION・KOKKURI』](03.html)
-- [『图书馆员碧翠丝不甘愿的约定』](04.html)
-- [『喜欢冷天气』](05.html)
-- [『酒精之乱』](06.html)
+- [『对 Ｅ・Ｍ・Ｔ 献上情歌』](01.md)
+- [『RAM IS ORDER』](02.md)
+- [『OPERATION・KOKKURI』](03.md)
+- [『图书馆员碧翠丝不甘愿的约定』](04.md)
+- [『喜欢冷天气』](05.md)
+- [『酒精之乱』](06.md)
 
 
-| <img width="300" src="/res/imgs/article/chapter999/short02/00-a.jpg" /> | <img width="300" src="/res/imgs/article/chapter999/short02/00-b.jpg" /> | <img width="300" src="/res/imgs/article/chapter999/short02/00-c.jpg" /> | <img width="300" src="/res/imgs/article/chapter999/short02/00-d.jpg" /> | <img width="300" src="/res/imgs/article/chapter999/short02/11.jpg" /> |
+| <img width="300" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short02/00-a.jpg" /> | <img width="300" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short02/00-b.jpg" /> | <img width="300" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short02/00-c.jpg" /> | <img width="300" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short02/00-d.jpg" /> | <img width="300" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short02/11.jpg" /> |
 |:------:|:------:|:------:|:------:|:------:|
 | 　 | 　 | 　 | 　 | 　 |
 
 
-| <img width="500" src="/res/imgs/article/chapter999/short02/12.jpg" /> | <img width="500" src="/res/imgs/article/chapter999/short02/13.jpg" /> |
+| <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short02/12.jpg" /> | <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short02/13.jpg" /> |
 |:------:|:------:|
 | 　 | 　 |
 

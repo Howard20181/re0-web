@@ -7,12 +7,12 @@ on:
       raw_filepath:
         description: '待翻译的文件路径'
         required: true
-        default: './gitbook/markdown/ch/chapter999/ex/00.md'
+        default: './mdbook/src/markdown/ch/chapter999/ex/00.md'
         type: string
       raw_dirpath:
         description: '待翻译的目录路径'
         required: true
-        default: './gitbook/markdown/ch/chapter999/ex'
+        default: './mdbook/src/markdown/ch/chapter999/ex'
         type: string
 
 jobs:

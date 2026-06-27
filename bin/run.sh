@@ -7,6 +7,9 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 # 按需构建镜像
 docker images -q "$IMAGE" >/dev/null 2>&1 || docker build -f Dockerfile.mdbook -t "$IMAGE" "$ROOT"
 
+# 清理上次生成的 book 输出目录（不清理 mdbook/src 源文件）
+rm -rf "$ROOT/mdbook/book"
+
 # 启动
 echo "==> Starting mdBook preview ..."
 echo "    Once ready, open: http://localhost:4000"
