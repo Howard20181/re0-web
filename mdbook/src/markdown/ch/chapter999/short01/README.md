@@ -19,7 +19,7 @@
 - [『艾米莉娅梦游仙境』](04.md)
 
 
-| <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/00.jpg" /> | <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/11.jpg" /> |
+| <img width="500" src="../../../..../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/00.jpg" /> | <img width="500" src="../../../..../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/11.jpg" /> |
 |:------:|:------:|
-| <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/12.jpg" /> | <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/13.jpg" /> |
-| <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/14.jpg" /> | <img width="500" src="../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/15.jpg" /> |
+| <img width="500" src="../../../..../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/12.jpg" /> | <img width="500" src="../../../..../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/13.jpg" /> |
+| <img width="500" src="../../../..../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/14.jpg" /> | <img width="500" src="../../../..../../../..../../../..../../../..../../../../res/imgs/article/chapter999/short01/15.jpg" /> |
