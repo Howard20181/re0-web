@@ -15,6 +15,7 @@ edit-url-template = "https://github.com/re-zero-khis/re0-web/edit/master/mdbook/
 cname = "re0zero.top"
 no-section-label = true
 additional-css = ["theme/custom.css"]
+additional-js = ["theme/donation-footer.js"]
 
 [output.html.search]
 enable = true
