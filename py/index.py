@@ -6,7 +6,7 @@
 # usage: 
 #   python ./py/index.py -f {update index file path}
 # eg:
-#   python ./py/index.py -f "./gitbook/markdown/ch/chapter070/01.md"
+#   python ./py/index.py -f "./mdbook/src/markdown/ch/chapter070/01.md"
 # --------------------------------------------
 
 import re
@@ -15,8 +15,8 @@ from common.settings import *
 from common.utils import *
 from color_log.clog import log
 
-SUMMARY_PATH = "./gitbook/SUMMARY.md"
-_README_PATH = "./gitbook/markdown/%s/%s/README.md"
+SUMMARY_PATH = "./mdbook/src/SUMMARY.md"
+_README_PATH = "./mdbook/src/markdown/%s/%s/README.md"
 
 
 def args() :

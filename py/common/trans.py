@@ -8,7 +8,7 @@ from color_log.clog import log
 
 
 # 专有名词翻译器
-DICT_PATH = "./gitbook/markdown/translation.md"
+DICT_PATH = "./mdbook/src/markdown/translation.md"
 class WordTranslation :
 
     def __init__(self, dict_path=DICT_PATH) :

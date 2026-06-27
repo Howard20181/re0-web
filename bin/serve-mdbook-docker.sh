@@ -1,39 +1,27 @@
 #!/bin/sh
 # Docker 容器内的 mdBook 预览入口脚本
-# 由 bin/run-mdbook.ps1 调用
+# 由 bin/run-mdbook.ps1 / bin/run.sh 调用
 # 运行环境：容器内，工作目录 = /workspace（即仓库根目录）
+#
+# 注：源文件已在 mdbook/src/ 中，不再需要从 gitbook/ 复制
 
 set -e
 
-SRC=mdbook/src
+ROOT=$(pwd)
 
-echo "==> Preparing mdBook source..."
-mkdir -p "$SRC"
-
-echo "    Copying markdown..."
-cp -r gitbook/markdown "$SRC/markdown"
-
-echo "    Copying resources..."
-cp -r gitbook/res "$SRC/res"
-
-cp gitbook/README.md "$SRC/README.md"
-cp gitbook/ads.txt   "$SRC/ads.txt"
-
-echo "    Fixing .html links in chapter README.md..."
-find "$SRC/markdown" -name "README.md" -print0 \
+echo "==> Fixing .html links in chapter README.md..."
+find "$ROOT/mdbook/src/markdown" -name "README.md" -print0 \
     | xargs -0 sed -i 's/\.html)/.md)/g'
 
-echo "    Fixing absolute /res/ paths..."
-python3 bin/fix-res-paths.py "$SRC"
+echo "==> Fixing absolute /res/ paths..."
+python3 "$ROOT/bin/fix-res-paths.py" "$ROOT/mdbook/src"
 
-echo "    Adapting SUMMARY.md..."
-python3 bin/adapt-summary.py gitbook/SUMMARY.md "$SRC/SUMMARY.md"
+echo "==> Adapting SUMMARY.md to mdBook format..."
+python3 "$ROOT/bin/adapt-summary.py" "$ROOT/mdbook/src/SUMMARY.md" "$ROOT/mdbook/src/SUMMARY.md"
 
 echo ""
 echo "==> Building book and generating SEO files ..."
 echo ""
-
-ROOT=$(pwd)
 
 # 1. 用 mdbook build 生成静态站点
 cd "$ROOT/mdbook" && mdbook build

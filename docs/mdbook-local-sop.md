@@ -1,6 +1,6 @@
 # mdBook 本地部署 SOP
 
-本文档用于本地预览和构建 mdBook 版本站点。旧 GitBook 构建链路已不再作为本地开发入口。
+本文档用于本地预览和构建 mdBook 版本站点。源文件位于 `mdbook/src/`。
 
 ## 前置条件
 
@@ -29,10 +29,8 @@ PowerShell：
 脚本会执行以下动作：
 
 1. 检查并按需构建 `re0-mdbook` 镜像。
-2. 清理上次生成的 `mdbook/src`。
-3. 从 `gitbook/` 复制 markdown 和资源到 `mdbook/src`。
-4. 转换 `SUMMARY.md` 为 mdBook 格式。
-5. 启动 `mdbook serve --hostname 0.0.0.0 --port 4000`。
+2. 修复 `/res/` 路径并转换 SUMMARY.md 格式。
+3. 启动 Python HTTP 服务器。
 
 启动完成后打开：
 

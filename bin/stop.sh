@@ -1,7 +1,3 @@
 #!/bin/sh
-
-DOCKER_ID=`docker ps -aq --filter name=re0-web`
-if [ ! -z "$DOCKER_ID" ]; then
-    docker stop $DOCKER_ID
-    # docker rm $DOCKER_ID
-fi
+# 停止 mdBook 容器（兼容旧 stop.sh 文件名）
+docker ps -q --filter ancestor=re0-mdbook | xargs -r docker stop

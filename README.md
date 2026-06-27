@@ -1,6 +1,6 @@
 # Re0：从零开始的异世界生活 （WEB 版）
 
-> 在线阅读：【[WEB 版](https://re-zero-khis.github.io/re0-web)】【[文库版](https://re0zero.top/gitbook/book/markdown/epub.html)】
+> 在线阅读：【[WEB 版](https://re-zero-khis.github.io/re0-web)】【[文库版](https://re0zero.top/mdbook/book/markdown/epub.html)】
 
 ------
 
@@ -12,7 +12,7 @@
 <br/>　（2）点击此项目仓库([re0-web](https://github.com/re-zero-khis/re0-web))右上角的 ![star](https://img.shields.io/github/stars/re-zero-khis/re0-web?style=social) 和 ![fork](https://img.shields.io/github/forks/re-zero-khis/re0-web?style=social) 按钮
 <br/>　（3）从 Google/App Store 搜索并安装 APP 【Github】 ，登录之
 <br/>　（4）在【仓库】中找到 [re0-web](https://github.com/re-zero-khis/re0-web)，点击打开
-<br/>　（5）点击【浏览代码】可打开仓库文件，在路径 `gitbook/markdown/ch` 下即为各个章节的内容
+<br/>　（5）点击【浏览代码】可打开仓库文件，在路径 `mdbook/src/markdown/ch` 下即为各个章节的内容
 
 
 ## 0x10 内容预览

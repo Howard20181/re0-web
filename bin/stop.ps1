@@ -1,6 +1,2 @@
-$DOCKER_ID = (docker ps -aq --filter name=re0-web)
-if(![String]::IsNullOrEmpty($DOCKER_ID)) {
-    docker stop $DOCKER_ID
-    # docker rm $DOCKER_ID
-}
-    
+# 停止 mdBook 容器（兼容旧 stop.ps1 文件名）
+.\bin\stop-mdbook.ps1
