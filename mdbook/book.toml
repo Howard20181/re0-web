@@ -9,7 +9,7 @@ src = "src"
 build-dir = "book"
 
 [output.html]
-site-url = "/"
+site-url = "/mdbook/book/"
 git-repository-url = "https://github.com/re-zero-khis/re0-web"
 edit-url-template = "https://github.com/re-zero-khis/re0-web/edit/master/mdbook/src/{path}"
 cname = "re0zero.top"

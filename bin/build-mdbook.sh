@@ -56,7 +56,7 @@ echo "    Output: mdbook/book/"
 
 # ── 6. 生成 sitemap.xml ──────────────────────────────────────
 cd ..
-SITE_URL="https://re0zero.top"
+SITE_URL="https://re0zero.top/mdbook/book"
 echo "==> Generating sitemap.xml..."
 python3 bin/gen-sitemap.py mdbook/book "$SITE_URL" mdbook/book/sitemap.xml
 
