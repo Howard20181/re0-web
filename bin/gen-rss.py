@@ -7,7 +7,7 @@
   python3 bin/gen-rss.py <summary_md> <base_url> <output_path> [max_items]
 
 例:
-  python3 bin/gen-rss.py mdbook/src/SUMMARY.md https://re0zero.top/mdbook/book mdbook/book/rss.xml
+  python3 bin/gen-rss.py mdbook/src/SUMMARY.md https://re0zero.top mdbook/book/rss.xml
 """
 import re
 import sys

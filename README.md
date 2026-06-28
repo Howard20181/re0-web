@@ -1,6 +1,6 @@
 # Re0：从零开始的异世界生活 （WEB 版）
 
-> 在线阅读：【[WEB 版](https://re-zero-khis.github.io/re0-web)】【[文库版](https://re0zero.top/mdbook/book/markdown/epub.html)】
+> 在线阅读：【[WEB 版](https://re-zero-khis.github.io/re0-web)】【[文库版](https://re0zero.top/markdown/epub.html)】
 
 ------
 

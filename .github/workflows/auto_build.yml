@@ -11,8 +11,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     permissions:
-      contents: write
+      contents: read
+      pages: write
+      id-token: write
 
     steps:
       - name: Check out repo
@@ -21,19 +26,8 @@ jobs:
           ref: master
           fetch-depth: 2
 
-      - name: Setup Git Information
-        run: |-
-          git config --global user.name "${{ vars._GIT_USER }}"
-          git config --global user.email "${{ vars._GIT_MAIL }}"
-
-      - name: Setup Deploy Private Key
-        env:
-          DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-        run: |
-          mkdir -p ~/.ssh/
-          echo "$DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 400 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
       - name: Check if rebuild is needed
         id: check_rebuild
@@ -58,9 +52,13 @@ jobs:
         if: steps.check_rebuild.outputs.needs_rebuild == 'true'
         run: ./bin/build-mdbook.sh
 
-      - name: Commit and push (if changed)
+      - name: Upload Pages artifact
         if: steps.check_rebuild.outputs.needs_rebuild == 'true'
-        run: |-
-          git add -A
-          git commit -m "mdBook build by Github Bot" || exit 0
-          git push origin master
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: mdbook/book
+
+      - name: Deploy to GitHub Pages
+        if: steps.check_rebuild.outputs.needs_rebuild == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4

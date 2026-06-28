@@ -7,7 +7,7 @@
   python3 bin/gen-sitemap.py <book_dir> <base_url> <output_path>
 
 例:
-  python3 bin/gen-sitemap.py mdbook/book https://re0zero.top/mdbook/book mdbook/book/sitemap.xml
+  python3 bin/gen-sitemap.py mdbook/book https://re0zero.top mdbook/book/sitemap.xml
 """
 import os
 import sys
