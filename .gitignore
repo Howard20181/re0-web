@@ -10,3 +10,4 @@ log/*
 mdbook/bin
 
 chat.json
+.sisyphus
